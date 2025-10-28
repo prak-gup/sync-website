@@ -1,0 +1,710 @@
+{
+  "pagination": {
+    "total": 458,
+    "offset": 200,
+    "limit": 100,
+    "hasMore": true
+  },
+  "items": [
+    {
+      "name": "GridMotion-JS-CSS",
+      "type": "registry:block",
+      "description": "Perspective moving grid lines based on cusror position.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/GridMotion-JS-CSS"
+    },
+    {
+      "name": "GridMotion-JS-TW",
+      "type": "registry:block",
+      "description": "Perspective moving grid lines based on cusror position.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/GridMotion-JS-TW"
+    },
+    {
+      "name": "GridMotion-TS-CSS",
+      "type": "registry:block",
+      "description": "Perspective moving grid lines based on cusror position.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/GridMotion-TS-CSS"
+    },
+    {
+      "name": "GridMotion-TS-TW",
+      "type": "registry:block",
+      "description": "Perspective moving grid lines based on cusror position.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/GridMotion-TS-TW"
+    },
+    {
+      "name": "Hyperspeed-JS-CSS",
+      "type": "registry:block",
+      "description": "Animated lines continously moving to simulate hyperspace travel on click hold.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Hyperspeed-JS-CSS"
+    },
+    {
+      "name": "Hyperspeed-JS-TW",
+      "type": "registry:block",
+      "description": "Animated lines continously moving to simulate hyperspace travel on click hold.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Hyperspeed-JS-TW"
+    },
+    {
+      "name": "Hyperspeed-TS-CSS",
+      "type": "registry:block",
+      "description": "Animated lines continously moving to simulate hyperspace travel on click hold.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Hyperspeed-TS-CSS"
+    },
+    {
+      "name": "Hyperspeed-TS-TW",
+      "type": "registry:block",
+      "description": "Animated lines continously moving to simulate hyperspace travel on click hold.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Hyperspeed-TS-TW"
+    },
+    {
+      "name": "ImageTrail-JS-CSS",
+      "type": "registry:block",
+      "description": "Cursor-based image trail with several built-in variants.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/ImageTrail-JS-CSS"
+    },
+    {
+      "name": "ImageTrail-JS-TW",
+      "type": "registry:block",
+      "description": "Cursor-based image trail with several built-in variants.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/ImageTrail-JS-TW"
+    },
+    {
+      "name": "ImageTrail-TS-CSS",
+      "type": "registry:block",
+      "description": "Cursor-based image trail with several built-in variants.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/ImageTrail-TS-CSS"
+    },
+    {
+      "name": "ImageTrail-TS-TW",
+      "type": "registry:block",
+      "description": "Cursor-based image trail with several built-in variants.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/ImageTrail-TS-TW"
+    },
+    {
+      "name": "InfiniteMenu-JS-CSS",
+      "type": "registry:block",
+      "description": "Horizontally looping menu effect that scrolls endlessly with seamless wrap.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/InfiniteMenu-JS-CSS"
+    },
+    {
+      "name": "InfiniteMenu-JS-TW",
+      "type": "registry:block",
+      "description": "Horizontally looping menu effect that scrolls endlessly with seamless wrap.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/InfiniteMenu-JS-TW"
+    },
+    {
+      "name": "InfiniteMenu-TS-CSS",
+      "type": "registry:block",
+      "description": "Horizontally looping menu effect that scrolls endlessly with seamless wrap.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/InfiniteMenu-TS-CSS"
+    },
+    {
+      "name": "InfiniteMenu-TS-TW",
+      "type": "registry:block",
+      "description": "Horizontally looping menu effect that scrolls endlessly with seamless wrap.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/InfiniteMenu-TS-TW"
+    },
+    {
+      "name": "InfiniteScroll-JS-CSS",
+      "type": "registry:block",
+      "description": "Infinite scrolling container auto-loads content near viewport end.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/InfiniteScroll-JS-CSS"
+    },
+    {
+      "name": "InfiniteScroll-JS-TW",
+      "type": "registry:block",
+      "description": "Infinite scrolling container auto-loads content near viewport end.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/InfiniteScroll-JS-TW"
+    },
+    {
+      "name": "InfiniteScroll-TS-CSS",
+      "type": "registry:block",
+      "description": "Infinite scrolling container auto-loads content near viewport end.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/InfiniteScroll-TS-CSS"
+    },
+    {
+      "name": "InfiniteScroll-TS-TW",
+      "type": "registry:block",
+      "description": "Infinite scrolling container auto-loads content near viewport end.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/InfiniteScroll-TS-TW"
+    },
+    {
+      "name": "Iridescence-JS-CSS",
+      "type": "registry:block",
+      "description": "Slick iridescent shader with shifting waves.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Iridescence-JS-CSS"
+    },
+    {
+      "name": "Iridescence-JS-TW",
+      "type": "registry:block",
+      "description": "Slick iridescent shader with shifting waves.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Iridescence-JS-TW"
+    },
+    {
+      "name": "Iridescence-TS-CSS",
+      "type": "registry:block",
+      "description": "Slick iridescent shader with shifting waves.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Iridescence-TS-CSS"
+    },
+    {
+      "name": "Iridescence-TS-TW",
+      "type": "registry:block",
+      "description": "Slick iridescent shader with shifting waves.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Iridescence-TS-TW"
+    },
+    {
+      "name": "Lanyard-JS-CSS",
+      "type": "registry:block",
+      "description": "Swinging 3D lanyard / badge card with realistic inertial motion.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Lanyard-JS-CSS"
+    },
+    {
+      "name": "Lanyard-JS-TW",
+      "type": "registry:block",
+      "description": "Swinging 3D lanyard / badge card with realistic inertial motion.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Lanyard-JS-TW"
+    },
+    {
+      "name": "Lanyard-TS-CSS",
+      "type": "registry:block",
+      "description": "Swinging 3D lanyard / badge card with realistic inertial motion.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Lanyard-TS-CSS"
+    },
+    {
+      "name": "Lanyard-TS-TW",
+      "type": "registry:block",
+      "description": "Swinging 3D lanyard / badge card with realistic inertial motion.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Lanyard-TS-TW"
+    },
+    {
+      "name": "LaserFlow-JS-CSS",
+      "type": "registry:block",
+      "description": "Dynamic laser light that flows onto a surface, customizable effect.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/LaserFlow-JS-CSS"
+    },
+    {
+      "name": "LaserFlow-JS-TW",
+      "type": "registry:block",
+      "description": "Dynamic laser light that flows onto a surface, customizable effect.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/LaserFlow-JS-TW"
+    },
+    {
+      "name": "LaserFlow-TS-CSS",
+      "type": "registry:block",
+      "description": "Dynamic laser light that flows onto a surface, customizable effect.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/LaserFlow-TS-CSS"
+    },
+    {
+      "name": "LaserFlow-TS-TW",
+      "type": "registry:block",
+      "description": "Dynamic laser light that flows onto a surface, customizable effect.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/LaserFlow-TS-TW"
+    },
+    {
+      "name": "LetterGlitch-JS-CSS",
+      "type": "registry:block",
+      "description": "Matrix style letter animation.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/LetterGlitch-JS-CSS"
+    },
+    {
+      "name": "LetterGlitch-JS-TW",
+      "type": "registry:block",
+      "description": "Matrix style letter animation.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/LetterGlitch-JS-TW"
+    },
+    {
+      "name": "LetterGlitch-TS-CSS",
+      "type": "registry:block",
+      "description": "Matrix style letter animation.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/LetterGlitch-TS-CSS"
+    },
+    {
+      "name": "LetterGlitch-TS-TW",
+      "type": "registry:block",
+      "description": "Matrix style letter animation.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/LetterGlitch-TS-TW"
+    },
+    {
+      "name": "Lightning-JS-CSS",
+      "type": "registry:block",
+      "description": "Procedural lightning bolts with branching and glow flicker.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Lightning-JS-CSS"
+    },
+    {
+      "name": "Lightning-JS-TW",
+      "type": "registry:block",
+      "description": "Procedural lightning bolts with branching and glow flicker.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Lightning-JS-TW"
+    },
+    {
+      "name": "Lightning-TS-CSS",
+      "type": "registry:block",
+      "description": "Procedural lightning bolts with branching and glow flicker.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Lightning-TS-CSS"
+    },
+    {
+      "name": "Lightning-TS-TW",
+      "type": "registry:block",
+      "description": "Procedural lightning bolts with branching and glow flicker.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Lightning-TS-TW"
+    },
+    {
+      "name": "LightRays-JS-CSS",
+      "type": "registry:block",
+      "description": "Volumetric light rays/beams with customizable direction.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/LightRays-JS-CSS"
+    },
+    {
+      "name": "LightRays-JS-TW",
+      "type": "registry:block",
+      "description": "Volumetric light rays/beams with customizable direction.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/LightRays-JS-TW"
+    },
+    {
+      "name": "LightRays-TS-CSS",
+      "type": "registry:block",
+      "description": "Volumetric light rays/beams with customizable direction.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/LightRays-TS-CSS"
+    },
+    {
+      "name": "LightRays-TS-TW",
+      "type": "registry:block",
+      "description": "Volumetric light rays/beams with customizable direction.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/LightRays-TS-TW"
+    },
+    {
+      "name": "LiquidChrome-JS-CSS",
+      "type": "registry:block",
+      "description": "Liquid metallic chrome shader with flowing reflective surface.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/LiquidChrome-JS-CSS"
+    },
+    {
+      "name": "LiquidChrome-JS-TW",
+      "type": "registry:block",
+      "description": "Liquid metallic chrome shader with flowing reflective surface.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/LiquidChrome-JS-TW"
+    },
+    {
+      "name": "LiquidChrome-TS-CSS",
+      "type": "registry:block",
+      "description": "Liquid metallic chrome shader with flowing reflective surface.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/LiquidChrome-TS-CSS"
+    },
+    {
+      "name": "LiquidChrome-TS-TW",
+      "type": "registry:block",
+      "description": "Liquid metallic chrome shader with flowing reflective surface.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/LiquidChrome-TS-TW"
+    },
+    {
+      "name": "LiquidEther-JS-CSS",
+      "type": "registry:block",
+      "description": "Interactive liquid shader with flowing distortion and customizable colors.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/LiquidEther-JS-CSS"
+    },
+    {
+      "name": "LiquidEther-JS-TW",
+      "type": "registry:block",
+      "description": "Interactive liquid shader with flowing distortion and customizable colors.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/LiquidEther-JS-TW"
+    },
+    {
+      "name": "LiquidEther-TS-CSS",
+      "type": "registry:block",
+      "description": "Interactive liquid shader with flowing distortion and customizable colors.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/LiquidEther-TS-CSS"
+    },
+    {
+      "name": "LiquidEther-TS-TW",
+      "type": "registry:block",
+      "description": "Interactive liquid shader with flowing distortion and customizable colors.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/LiquidEther-TS-TW"
+    },
+    {
+      "name": "LogoLoop-JS-CSS",
+      "type": "registry:block",
+      "description": "Continuously looping marquee of brand or tech logos with seamless repeat and hover pause.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/LogoLoop-JS-CSS"
+    },
+    {
+      "name": "LogoLoop-JS-TW",
+      "type": "registry:block",
+      "description": "Continuously looping marquee of brand or tech logos with seamless repeat and hover pause.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/LogoLoop-JS-TW"
+    },
+    {
+      "name": "LogoLoop-TS-CSS",
+      "type": "registry:block",
+      "description": "Continuously looping marquee of brand or tech logos with seamless repeat and hover pause.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/LogoLoop-TS-CSS"
+    },
+    {
+      "name": "LogoLoop-TS-TW",
+      "type": "registry:block",
+      "description": "Continuously looping marquee of brand or tech logos with seamless repeat and hover pause.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/LogoLoop-TS-TW"
+    },
+    {
+      "name": "MagicBento-JS-CSS",
+      "type": "registry:block",
+      "description": "Interactive bento grid tiles expand + animate with various options.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/MagicBento-JS-CSS"
+    },
+    {
+      "name": "MagicBento-JS-TW",
+      "type": "registry:block",
+      "description": "Interactive bento grid tiles expand + animate with various options.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/MagicBento-JS-TW"
+    },
+    {
+      "name": "MagicBento-TS-CSS",
+      "type": "registry:block",
+      "description": "Interactive bento grid tiles expand + animate with various options.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/MagicBento-TS-CSS"
+    },
+    {
+      "name": "MagicBento-TS-TW",
+      "type": "registry:block",
+      "description": "Interactive bento grid tiles expand + animate with various options.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/MagicBento-TS-TW"
+    },
+    {
+      "name": "Magnet-JS-CSS",
+      "type": "registry:block",
+      "description": "Elements magnetically ease toward the cursor then settle back with spring physics.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Magnet-JS-CSS"
+    },
+    {
+      "name": "Magnet-JS-TW",
+      "type": "registry:block",
+      "description": "Elements magnetically ease toward the cursor then settle back with spring physics.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Magnet-JS-TW"
+    },
+    {
+      "name": "Magnet-TS-CSS",
+      "type": "registry:block",
+      "description": "Elements magnetically ease toward the cursor then settle back with spring physics.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Magnet-TS-CSS"
+    },
+    {
+      "name": "Magnet-TS-TW",
+      "type": "registry:block",
+      "description": "Elements magnetically ease toward the cursor then settle back with spring physics.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Magnet-TS-TW"
+    },
+    {
+      "name": "MagnetLines-JS-CSS",
+      "type": "registry:block",
+      "description": "Animated field lines bend toward the cursor.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/MagnetLines-JS-CSS"
+    },
+    {
+      "name": "MagnetLines-JS-TW",
+      "type": "registry:block",
+      "description": "Animated field lines bend toward the cursor.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/MagnetLines-JS-TW"
+    },
+    {
+      "name": "MagnetLines-TS-CSS",
+      "type": "registry:block",
+      "description": "Animated field lines bend toward the cursor.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/MagnetLines-TS-CSS"
+    },
+    {
+      "name": "MagnetLines-TS-TW",
+      "type": "registry:block",
+      "description": "Animated field lines bend toward the cursor.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/MagnetLines-TS-TW"
+    },
+    {
+      "name": "Masonry-JS-CSS",
+      "type": "registry:block",
+      "description": "Responsive masonry layout with animated reflow + gaps optimization.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Masonry-JS-CSS"
+    },
+    {
+      "name": "Masonry-JS-TW",
+      "type": "registry:block",
+      "description": "Responsive masonry layout with animated reflow + gaps optimization.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Masonry-JS-TW"
+    },
+    {
+      "name": "Masonry-TS-CSS",
+      "type": "registry:block",
+      "description": "Responsive masonry layout with animated reflow + gaps optimization.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Masonry-TS-CSS"
+    },
+    {
+      "name": "Masonry-TS-TW",
+      "type": "registry:block",
+      "description": "Responsive masonry layout with animated reflow + gaps optimization.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Masonry-TS-TW"
+    },
+    {
+      "name": "MetaBalls-JS-CSS",
+      "type": "registry:block",
+      "description": "Liquid metaball blobs that merge and separate with smooth implicit surface animation.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/MetaBalls-JS-CSS"
+    },
+    {
+      "name": "MetaBalls-JS-TW",
+      "type": "registry:block",
+      "description": "Liquid metaball blobs that merge and separate with smooth implicit surface animation.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/MetaBalls-JS-TW"
+    },
+    {
+      "name": "MetaBalls-TS-CSS",
+      "type": "registry:block",
+      "description": "Liquid metaball blobs that merge and separate with smooth implicit surface animation.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/MetaBalls-TS-CSS"
+    },
+    {
+      "name": "MetaBalls-TS-TW",
+      "type": "registry:block",
+      "description": "Liquid metaball blobs that merge and separate with smooth implicit surface animation.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/MetaBalls-TS-TW"
+    },
+    {
+      "name": "MetallicPaint-JS-CSS",
+      "type": "registry:block",
+      "description": "Liquid metallic paint shader which can be applied to SVG elements.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/MetallicPaint-JS-CSS"
+    },
+    {
+      "name": "MetallicPaint-JS-TW",
+      "type": "registry:block",
+      "description": "Liquid metallic paint shader which can be applied to SVG elements.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/MetallicPaint-JS-TW"
+    },
+    {
+      "name": "MetallicPaint-TS-CSS",
+      "type": "registry:block",
+      "description": "Liquid metallic paint shader which can be applied to SVG elements.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/MetallicPaint-TS-CSS"
+    },
+    {
+      "name": "MetallicPaint-TS-TW",
+      "type": "registry:block",
+      "description": "Liquid metallic paint shader which can be applied to SVG elements.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/MetallicPaint-TS-TW"
+    },
+    {
+      "name": "ModelViewer-JS-CSS",
+      "type": "registry:block",
+      "description": "Three.js model viewer with orbit controls and lighting presets.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/ModelViewer-JS-CSS"
+    },
+    {
+      "name": "ModelViewer-JS-TW",
+      "type": "registry:block",
+      "description": "Three.js model viewer with orbit controls and lighting presets.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/ModelViewer-JS-TW"
+    },
+    {
+      "name": "ModelViewer-TS-CSS",
+      "type": "registry:block",
+      "description": "Three.js model viewer with orbit controls and lighting presets.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/ModelViewer-TS-CSS"
+    },
+    {
+      "name": "ModelViewer-TS-TW",
+      "type": "registry:block",
+      "description": "Three.js model viewer with orbit controls and lighting presets.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/ModelViewer-TS-TW"
+    },
+    {
+      "name": "Noise-JS-CSS",
+      "type": "registry:block",
+      "description": "Animated film grain / noise overlay adding subtle texture and motion.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Noise-JS-CSS"
+    },
+    {
+      "name": "Noise-JS-TW",
+      "type": "registry:block",
+      "description": "Animated film grain / noise overlay adding subtle texture and motion.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Noise-JS-TW"
+    },
+    {
+      "name": "Noise-TS-CSS",
+      "type": "registry:block",
+      "description": "Animated film grain / noise overlay adding subtle texture and motion.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Noise-TS-CSS"
+    },
+    {
+      "name": "Noise-TS-TW",
+      "type": "registry:block",
+      "description": "Animated film grain / noise overlay adding subtle texture and motion.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Noise-TS-TW"
+    },
+    {
+      "name": "Orb-JS-CSS",
+      "type": "registry:block",
+      "description": "Floating energy orb with customizable hover effect.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Orb-JS-CSS"
+    },
+    {
+      "name": "Orb-JS-TW",
+      "type": "registry:block",
+      "description": "Floating energy orb with customizable hover effect.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Orb-JS-TW"
+    },
+    {
+      "name": "Orb-TS-CSS",
+      "type": "registry:block",
+      "description": "Floating energy orb with customizable hover effect.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Orb-TS-CSS"
+    },
+    {
+      "name": "Orb-TS-TW",
+      "type": "registry:block",
+      "description": "Floating energy orb with customizable hover effect.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Orb-TS-TW"
+    },
+    {
+      "name": "Particles-JS-CSS",
+      "type": "registry:block",
+      "description": "Configurable particle system.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Particles-JS-CSS"
+    },
+    {
+      "name": "Particles-JS-TW",
+      "type": "registry:block",
+      "description": "Configurable particle system.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Particles-JS-TW"
+    },
+    {
+      "name": "Particles-TS-CSS",
+      "type": "registry:block",
+      "description": "Configurable particle system.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Particles-TS-CSS"
+    },
+    {
+      "name": "Particles-TS-TW",
+      "type": "registry:block",
+      "description": "Configurable particle system.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Particles-TS-TW"
+    },
+    {
+      "name": "PillNav-JS-CSS",
+      "type": "registry:block",
+      "description": "Minimal pill nav with sliding active highlight + smooth easing.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/PillNav-JS-CSS"
+    },
+    {
+      "name": "PillNav-JS-TW",
+      "type": "registry:block",
+      "description": "Minimal pill nav with sliding active highlight + smooth easing.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/PillNav-JS-TW"
+    },
+    {
+      "name": "PillNav-TS-CSS",
+      "type": "registry:block",
+      "description": "Minimal pill nav with sliding active highlight + smooth easing.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/PillNav-TS-CSS"
+    },
+    {
+      "name": "PillNav-TS-TW",
+      "type": "registry:block",
+      "description": "Minimal pill nav with sliding active highlight + smooth easing.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/PillNav-TS-TW"
+    }
+  ]
+}

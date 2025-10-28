@@ -20,6 +20,29 @@ const eslintConfig = [
       "next-env.d.ts",
     ],
   },
+  // Relax lint rules for vendored/demo Reactbits components to allow iteration.
+  {
+    files: ["src/components/[A-Z]*.tsx"],
+    rules: {
+      // TypeScript strictness
+      "@typescript-eslint/no-explicit-any": "off",
+      "@typescript-eslint/no-empty-object-type": "off",
+      "@typescript-eslint/ban-ts-comment": ["warn", { "ts-expect-error": "allow-with-description" }],
+      "@typescript-eslint/no-unused-vars": ["warn", { "argsIgnorePattern": "^_", "varsIgnorePattern": "^_" }],
+      "@typescript-eslint/no-unused-expressions": "warn",
+
+      // Stylistic
+      "prefer-const": "off",
+
+      // React hooks: keep core rule, relax exhaustive-deps noise
+      "react-hooks/rules-of-hooks": "error",
+      "react-hooks/exhaustive-deps": "warn",
+
+      // Next.js/a11y: relax for showcase assets
+      "@next/next/no-img-element": "off",
+      "jsx-a11y/alt-text": "warn",
+    },
+  },
 ];
 
 export default eslintConfig;

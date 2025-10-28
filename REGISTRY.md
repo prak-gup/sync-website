@@ -36,3 +36,6 @@ pnpm dlx shadcn@latest add button --registry <REGISTRY_URL>
 - If a component asks to install an extra package, add it with `pnpm add <pkg>` (or `-D` for dev packages).
 
 
+
+
+

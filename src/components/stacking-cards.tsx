@@ -27,7 +27,7 @@ export function StackingCards({ children, className }: StackingCardsProps) {
 export function StackingCard({
   children,
   index,
-  total,
+  total: _total,
   className,
 }: StackingCardProps) {
   const ref = useRef<HTMLDivElement>(null);

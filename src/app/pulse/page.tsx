@@ -1,8 +1,9 @@
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { ArrowRight, Check, Target, TrendingUp, Users, BarChart, Zap, Shield, Database } from "lucide-react";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { ArrowRight, Target, TrendingUp, Users, BarChart, Zap, Shield } from "lucide-react";
 import Link from "next/link";
 import { BentoGrid, BentoCard } from "@/components/bento-grid";
+import { SplitText, AnimatedContent } from "@/components/reactbits";
 
 export const metadata = {
   title: "SYNC Pulse India - Cross-Media Measurement & Deduplicated Reach",
@@ -21,12 +22,30 @@ export default function PulsePage() {
               <span className="text-sm font-medium">SYNC Pulse</span>
             </div>
             <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-6xl">
-              Cross-Media Measurement Without Guesswork
+              <SplitText
+                text="Cross-Media Measurement Without Guesswork"
+                splitType="words"
+                delay={100}
+                duration={0.8}
+                ease="power3.out"
+              />
             </h1>
-            <p className="mt-6 text-lg leading-8 text-muted-foreground">
-              SYNC Pulse delivers deduplicated reach, frequency, and outcome-ready metrics across
-              linear TV, CTV/OTT, and digital—built for India's multi-platform reality.
-            </p>
+            <AnimatedContent
+              direction="up"
+              distance={30}
+              duration={1}
+              delay={800}
+              className="mt-6"
+            >
+              <SplitText
+                text="SYNC Pulse delivers deduplicated reach, frequency, and outcome-ready metrics across linear TV, CTV/OTT, and digital—built for India&apos;s multi-platform reality."
+                splitType="words"
+                delay={60}
+                duration={0.6}
+                ease="power3.out"
+                className="text-lg leading-8 text-muted-foreground"
+              />
+            </AnimatedContent>
             <div className="mt-10 flex items-center justify-center gap-4">
               <Button size="lg" className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700">
                 Request SYNC Pulse Demo
@@ -43,56 +62,61 @@ export default function PulsePage() {
       {/* Problem Statement */}
       <section className="py-24">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl text-center">
+          <AnimatedContent
+            direction="up"
+            distance={30}
+            duration={0.8}
+            delay={0}
+            className="mx-auto max-w-2xl text-center"
+          >
             <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-              The Cross-Platform Challenge
+              <SplitText
+                text="The Cross-Platform Challenge"
+                splitType="words"
+                delay={80}
+                duration={0.6}
+                ease="power3.out"
+              />
             </h2>
-          </div>
+          </AnimatedContent>
 
           <div className="mx-auto mt-16 grid max-w-7xl grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
-            <Card>
-              <CardHeader>
-                <CardTitle className="text-lg">Fragmented Reporting</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-sm text-muted-foreground">
-                  Separate reports across TV, OTT, and digital with no unified view
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardHeader>
-                <CardTitle className="text-lg">Duplicate Audiences</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-sm text-muted-foreground">
-                  Inflated reach numbers that mask true frequency and saturation
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardHeader>
-                <CardTitle className="text-lg">No Consistent Currency</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-sm text-muted-foreground">
-                  Different metrics across platforms make comparison impossible
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardHeader>
-                <CardTitle className="text-lg">Outcome Disconnect</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-sm text-muted-foreground">
-                  Hard to connect exposure to business results and ROI proof
-                </p>
-              </CardContent>
-            </Card>
+            {[
+              {
+                title: "Fragmented Reporting",
+                description: "Separate reports across TV, OTT, and digital with no unified view"
+              },
+              {
+                title: "Duplicate Audiences",
+                description: "Inflated reach numbers that mask true frequency and saturation"
+              },
+              {
+                title: "No Consistent Currency",
+                description: "Different metrics across platforms make comparison impossible"
+              },
+              {
+                title: "Outcome Disconnect",
+                description: "Hard to connect exposure to business results and ROI proof"
+              }
+            ].map((problem, index) => (
+              <AnimatedContent
+                key={problem.title}
+                direction="up"
+                distance={30}
+                duration={0.6}
+                delay={index * 150}
+                className="h-full"
+              >
+                <Card className="h-full">
+                  <CardHeader>
+                    <CardTitle className="text-lg">{problem.title}</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-sm text-muted-foreground">{problem.description}</p>
+                  </CardContent>
+                </Card>
+              </AnimatedContent>
+            ))}
           </div>
         </div>
       </section>
@@ -100,45 +124,77 @@ export default function PulsePage() {
       {/* Solution Overview */}
       <section className="bg-muted/30 py-24">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl text-center">
+          <AnimatedContent
+            direction="up"
+            distance={30}
+            duration={0.8}
+            delay={0}
+            className="mx-auto max-w-2xl text-center"
+          >
             <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-              One Platform. One Truth. Complete Visibility.
+              <SplitText
+                text="One Platform. One Truth. Complete Visibility."
+                splitType="words"
+                delay={100}
+                duration={0.8}
+                ease="power3.out"
+              />
             </h2>
-            <p className="mt-4 text-lg text-muted-foreground">
-              SYNC Pulse combines large-scale signals with panel-calibrated accuracy to deliver a single,
-              deduplicated view of audiences across platforms and devices in India—so planning, verification,
-              and reporting align.
-            </p>
-          </div>
+            <AnimatedContent
+              direction="up"
+              distance={20}
+              duration={0.8}
+              delay={800}
+              className="mt-4"
+            >
+              <SplitText
+                text="SYNC Pulse combines large-scale signals with panel-calibrated accuracy to deliver a single, deduplicated view of audiences across platforms and devices in India—so planning, verification, and reporting align."
+                splitType="words"
+                delay={60}
+                duration={0.6}
+                ease="power3.out"
+                className="text-lg text-muted-foreground"
+              />
+            </AnimatedContent>
+          </AnimatedContent>
 
           <div className="mx-auto mt-16 grid max-w-5xl grid-cols-1 gap-8 sm:grid-cols-2">
-            <div className="rounded-lg border border-border bg-card p-8">
-              <h3 className="text-xl font-semibold">Cross-Device Identity</h3>
-              <p className="mt-4 text-muted-foreground">
-                Household and screen deduplication for accurate frequency control
-              </p>
-            </div>
-
-            <div className="rounded-lg border border-border bg-card p-8">
-              <h3 className="text-xl font-semibold">Consistent Metrics</h3>
-              <p className="mt-4 text-muted-foreground">
-                Apples-to-apples comparison across all media channels
-              </p>
-            </div>
-
-            <div className="rounded-lg border border-border bg-card p-8">
-              <h3 className="text-xl font-semibold">Incremental Reach Analytics</h3>
-              <p className="mt-4 text-muted-foreground">
-                Find net-new audiences and optimize media mix efficiency
-              </p>
-            </div>
-
-            <div className="rounded-lg border border-border bg-card p-8">
-              <h3 className="text-xl font-semibold">Outcomes Linkage</h3>
-              <p className="mt-4 text-muted-foreground">
-                Prove impact on business results with flexible attribution
-              </p>
-            </div>
+            {[
+              {
+                title: "Cross-Device Identity",
+                description: "Household and screen deduplication for accurate frequency control"
+              },
+              {
+                title: "Consistent Metrics",
+                description: "Apples-to-apples comparison across all media channels"
+              },
+              {
+                title: "Incremental Reach Analytics",
+                description: "Find net-new audiences and optimize media mix efficiency"
+              },
+              {
+                title: "Outcomes Linkage",
+                description: "Prove impact on business results with flexible attribution"
+              }
+            ].map((solution, index) => (
+              <AnimatedContent
+                key={solution.title}
+                direction="up"
+                distance={30}
+                duration={0.6}
+                delay={index * 200}
+                className="h-full"
+              >
+                <Card className="h-full">
+                  <CardHeader>
+                    <CardTitle className="text-xl">{solution.title}</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-muted-foreground">{solution.description}</p>
+                  </CardContent>
+                </Card>
+              </AnimatedContent>
+            ))}
           </div>
         </div>
       </section>
@@ -146,11 +202,23 @@ export default function PulsePage() {
       {/* Key Features */}
       <section className="py-24">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl text-center">
+          <AnimatedContent
+            direction="up"
+            distance={30}
+            duration={0.8}
+            delay={0}
+            className="mx-auto max-w-2xl text-center"
+          >
             <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-              Key Features
+              <SplitText
+                text="Key Features"
+                splitType="words"
+                delay={100}
+                duration={0.8}
+                ease="power3.out"
+              />
             </h2>
-          </div>
+          </AnimatedContent>
 
           <div className="mx-auto mt-16 max-w-7xl">
             <BentoGrid>
@@ -198,43 +266,62 @@ export default function PulsePage() {
       {/* Technical Overview */}
       <section className="bg-muted/30 py-24">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl text-center">
+          <AnimatedContent
+            direction="up"
+            distance={30}
+            duration={0.8}
+            delay={0}
+            className="mx-auto max-w-2xl text-center"
+          >
             <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-              Built for India's Data Reality
+              <SplitText
+                text="Built for India&apos;s Data Reality"
+                splitType="words"
+                delay={100}
+                duration={0.8}
+                ease="power3.out"
+              />
             </h2>
-          </div>
+          </AnimatedContent>
 
           <div className="mx-auto mt-16 max-w-5xl">
-            <Card>
-              <CardContent className="p-8">
-                <div className="grid gap-8 md:grid-cols-2">
-                  <div>
-                    <h3 className="font-semibold text-foreground">Coverage</h3>
-                    <p className="mt-2 text-sm text-muted-foreground">
-                      Linear TV, CTV/OTT platforms and apps, digital video, VOD, and time-shifted viewing
-                    </p>
+            <AnimatedContent
+              direction="up"
+              distance={40}
+              duration={0.8}
+              delay={400}
+            >
+              <Card>
+                <CardContent className="p-8">
+                  <div className="grid gap-8 md:grid-cols-2">
+                    <div>
+                      <h3 className="font-semibold text-foreground">Coverage</h3>
+                      <p className="mt-2 text-sm text-muted-foreground">
+                        Linear TV, CTV/OTT platforms and apps, digital video, VOD, and time-shifted viewing
+                      </p>
+                    </div>
+                    <div>
+                      <h3 className="font-semibold text-foreground">Methodology</h3>
+                      <p className="mt-2 text-sm text-muted-foreground">
+                        Hybrid approach combining scale with panel calibration and quality controls
+                      </p>
+                    </div>
+                    <div>
+                      <h3 className="font-semibold text-foreground">Identity</h3>
+                      <p className="mt-2 text-sm text-muted-foreground">
+                        Cross-device and household-level resolution with privacy-first aggregation
+                      </p>
+                    </div>
+                    <div>
+                      <h3 className="font-semibold text-foreground">Integration</h3>
+                      <p className="mt-2 text-sm text-muted-foreground">
+                        Works with major planning platforms, DSPs, analytics tools, and custom APIs
+                      </p>
+                    </div>
                   </div>
-                  <div>
-                    <h3 className="font-semibold text-foreground">Methodology</h3>
-                    <p className="mt-2 text-sm text-muted-foreground">
-                      Hybrid approach combining scale with panel calibration and quality controls
-                    </p>
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-foreground">Identity</h3>
-                    <p className="mt-2 text-sm text-muted-foreground">
-                      Cross-device and household-level resolution with privacy-first aggregation
-                    </p>
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-foreground">Integration</h3>
-                    <p className="mt-2 text-sm text-muted-foreground">
-                      Works with major planning platforms, DSPs, analytics tools, and custom APIs
-                    </p>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
+                </CardContent>
+              </Card>
+            </AnimatedContent>
           </div>
         </div>
       </section>
@@ -242,11 +329,23 @@ export default function PulsePage() {
       {/* Use Cases */}
       <section className="py-24">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl text-center">
+          <AnimatedContent
+            direction="up"
+            distance={30}
+            duration={0.8}
+            delay={0}
+            className="mx-auto max-w-2xl text-center"
+          >
             <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-              Use Cases
+              <SplitText
+                text="Use Cases"
+                splitType="words"
+                delay={100}
+                duration={0.8}
+                ease="power3.out"
+              />
             </h2>
-          </div>
+          </AnimatedContent>
 
           <div className="mx-auto mt-16 grid max-w-7xl grid-cols-1 gap-8 md:grid-cols-2">
             {[
@@ -267,14 +366,23 @@ export default function PulsePage() {
                 description: "Link exposure to online/offline outcomes and demonstrate business impact to stakeholders.",
               },
             ].map((useCase, index) => (
-              <Card key={index}>
-                <CardHeader>
-                  <CardTitle>{useCase.title}</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-muted-foreground">{useCase.description}</p>
-                </CardContent>
-              </Card>
+              <AnimatedContent
+                key={index}
+                direction="up"
+                distance={30}
+                duration={0.6}
+                delay={index * 150}
+                className="h-full"
+              >
+                <Card className="h-full">
+                  <CardHeader>
+                    <CardTitle>{useCase.title}</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-muted-foreground">{useCase.description}</p>
+                  </CardContent>
+                </Card>
+              </AnimatedContent>
             ))}
           </div>
         </div>
@@ -283,13 +391,38 @@ export default function PulsePage() {
       {/* CTA Section */}
       <section className="relative overflow-hidden bg-gradient-to-br from-purple-600/10 via-background to-blue-600/10 py-24">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl text-center">
+          <AnimatedContent
+            direction="up"
+            distance={40}
+            duration={1}
+            delay={0}
+            className="mx-auto max-w-2xl text-center"
+          >
             <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-              Ready to Get Started with SYNC Pulse?
+              <SplitText
+                text="Ready to Get Started with SYNC Pulse?"
+                splitType="words"
+                delay={100}
+                duration={0.8}
+                ease="power3.out"
+              />
             </h2>
-            <p className="mt-4 text-lg text-muted-foreground">
-              See how SYNC Pulse delivers unified, deduplicated measurement for your campaigns
-            </p>
+            <AnimatedContent
+              direction="up"
+              distance={20}
+              duration={0.8}
+              delay={800}
+              className="mt-4"
+            >
+              <SplitText
+                text="See how SYNC Pulse delivers unified, deduplicated measurement for your campaigns"
+                splitType="words"
+                delay={60}
+                duration={0.6}
+                ease="power3.out"
+                className="text-lg text-muted-foreground"
+              />
+            </AnimatedContent>
             <div className="mt-10 flex items-center justify-center gap-4">
               <Button size="lg" className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700">
                 Request a Demo
@@ -299,7 +432,7 @@ export default function PulsePage() {
                 <Link href="/">Back to Home</Link>
               </Button>
             </div>
-          </div>
+          </AnimatedContent>
         </div>
       </section>
     </div>

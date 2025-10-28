@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { ArrowRight, Check, Shield, Users, Monitor, Network, Target, Zap, Eye, RefreshCw } from "lucide-react";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { ArrowRight, Check, Shield, Users, Monitor, Network, Target, Zap, RefreshCw } from "lucide-react";
 import Link from "next/link";
 import { BentoGrid, BentoCard } from "@/components/bento-grid";
 
@@ -191,17 +191,19 @@ export default function AudiencePage() {
                 description: "Connect targeting to measurement. Verify delivery, prove outcomes, and optimize for next campaign.",
               },
             ].map((benefit, index) => (
-              <div key={index} className="flex gap-6 rounded-lg border border-border bg-card p-6">
-                <div className="flex-shrink-0">
-                  <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-purple-600/10">
-                    <Check className="h-5 w-5 text-purple-600" />
+              <Card key={index}>
+                <CardContent className="flex gap-6 p-6">
+                  <div className="flex-shrink-0">
+                    <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-purple-600/10">
+                      <Check className="h-5 w-5 text-purple-600" />
+                    </div>
                   </div>
-                </div>
-                <div>
-                  <h3 className="font-semibold">{benefit.title}</h3>
-                  <p className="mt-2 text-sm text-muted-foreground">{benefit.description}</p>
-                </div>
-              </div>
+                  <div>
+                    <h3 className="font-semibold">{benefit.title}</h3>
+                    <p className="mt-2 text-sm text-muted-foreground">{benefit.description}</p>
+                  </div>
+                </CardContent>
+              </Card>
             ))}
           </div>
         </div>

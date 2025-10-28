@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { ArrowRight, Check, TrendingUp, Zap, Brain, LineChart, Target, Gauge, Sparkles } from "lucide-react";
 import Link from "next/link";
 import { BentoGrid, BentoCard } from "@/components/bento-grid";
@@ -187,17 +187,19 @@ export default function AdlyticsPage() {
                 icon: Check,
               },
             ].map((benefit, index) => (
-              <div key={index} className="flex gap-6 rounded-lg border border-border bg-card p-6">
-                <div className="flex-shrink-0">
-                  <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-blue-600/10">
-                    <benefit.icon className="h-5 w-5 text-blue-600" />
+              <Card key={index}>
+                <CardContent className="flex gap-6 p-6">
+                  <div className="flex-shrink-0">
+                    <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-blue-600/10">
+                      <benefit.icon className="h-5 w-5 text-blue-600" />
+                    </div>
                   </div>
-                </div>
-                <div>
-                  <h3 className="font-semibold">{benefit.title}</h3>
-                  <p className="mt-2 text-sm text-muted-foreground">{benefit.description}</p>
-                </div>
-              </div>
+                  <div>
+                    <h3 className="font-semibold">{benefit.title}</h3>
+                    <p className="mt-2 text-sm text-muted-foreground">{benefit.description}</p>
+                  </div>
+                </CardContent>
+              </Card>
             ))}
           </div>
         </div>
@@ -254,20 +256,26 @@ export default function AdlyticsPage() {
           </div>
 
           <div className="mx-auto mt-16 grid max-w-7xl grid-cols-1 gap-8 sm:grid-cols-3">
-            <div className="rounded-lg border border-border bg-card p-8 text-center">
-              <div className="text-4xl font-bold text-blue-600">200M+</div>
-              <div className="mt-2 text-sm text-muted-foreground">Ads Analyzed</div>
-            </div>
+            <Card className="text-center">
+              <CardContent className="p-8">
+                <div className="text-4xl font-bold text-blue-600">200M+</div>
+                <div className="mt-2 text-sm text-muted-foreground">Ads Analyzed</div>
+              </CardContent>
+            </Card>
 
-            <div className="rounded-lg border border-border bg-card p-8 text-center">
-              <div className="text-4xl font-bold text-blue-600">14%</div>
-              <div className="mt-2 text-sm text-muted-foreground">Average Effectiveness Increase</div>
-            </div>
+            <Card className="text-center">
+              <CardContent className="p-8">
+                <div className="text-4xl font-bold text-blue-600">14%</div>
+                <div className="mt-2 text-sm text-muted-foreground">Average Effectiveness Increase</div>
+              </CardContent>
+            </Card>
 
-            <div className="rounded-lg border border-border bg-card p-8 text-center">
-              <div className="text-4xl font-bold text-blue-600">95%</div>
-              <div className="mt-2 text-sm text-muted-foreground">Client Retention Rate</div>
-            </div>
+            <Card className="text-center">
+              <CardContent className="p-8">
+                <div className="text-4xl font-bold text-blue-600">95%</div>
+                <div className="mt-2 text-sm text-muted-foreground">Client Retention Rate</div>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>

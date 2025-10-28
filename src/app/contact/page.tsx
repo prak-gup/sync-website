@@ -16,7 +16,7 @@ export default function ContactPage() {
         <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8">
           <div className="mx-auto max-w-3xl text-center">
             <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-6xl">
-              Let's Transform Your TV Advertising Together
+              Let&apos;s Transform Your TV Advertising Together
             </h1>
             <p className="mt-6 text-lg leading-8 text-muted-foreground">
               Whether you need a platform demo, a rapid diagnostic, or a custom solution,
@@ -55,7 +55,7 @@ export default function ContactPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-muted-foreground">
-                  Get a quick assessment of your current TV and OTT campaigns. We'll analyze audience
+                  Get a quick assessment of your current TV and OTT campaigns. We&apos;ll analyze audience
                   duplication, incremental reach opportunities, and creative performance.
                 </p>
                 <Button className="mt-6 w-full">Get Diagnostic</Button>
@@ -91,32 +91,18 @@ export default function ContactPage() {
             </p>
 
             <form className="mt-12 space-y-6">
-              <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
-                <div>
-                  <label htmlFor="firstName" className="block text-sm font-medium text-foreground">
-                    First Name *
-                  </label>
-                  <input
-                    type="text"
-                    id="firstName"
-                    name="firstName"
-                    required
-                    className="mt-2 block w-full rounded-md border border-input bg-background px-3 py-2 text-foreground placeholder-muted-foreground focus:border-purple-600 focus:outline-none focus:ring-1 focus:ring-purple-600"
-                  />
-                </div>
-
-                <div>
-                  <label htmlFor="lastName" className="block text-sm font-medium text-foreground">
-                    Last Name *
-                  </label>
-                  <input
-                    type="text"
-                    id="lastName"
-                    name="lastName"
-                    required
-                    className="mt-2 block w-full rounded-md border border-input bg-background px-3 py-2 text-foreground placeholder-muted-foreground focus:border-purple-600 focus:outline-none focus:ring-1 focus:ring-purple-600"
-                  />
-                </div>
+              <div>
+                <label htmlFor="name" className="block text-sm font-medium text-foreground">
+                  Name *
+                </label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  required
+                  placeholder="Your full name"
+                  className="mt-2 block w-full rounded-md border border-input bg-background px-4 py-3 text-foreground placeholder-muted-foreground focus:border-purple-600 focus:outline-none focus:ring-1 focus:ring-purple-600"
+                />
               </div>
 
               <div>
@@ -128,146 +114,63 @@ export default function ContactPage() {
                   id="email"
                   name="email"
                   required
-                  className="mt-2 block w-full rounded-md border border-input bg-background px-3 py-2 text-foreground placeholder-muted-foreground focus:border-purple-600 focus:outline-none focus:ring-1 focus:ring-purple-600"
+                  placeholder="your.email@company.com"
+                  className="mt-2 block w-full rounded-md border border-input bg-background px-4 py-3 text-foreground placeholder-muted-foreground focus:border-purple-600 focus:outline-none focus:ring-1 focus:ring-purple-600"
                 />
               </div>
 
-              <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
-                <div>
-                  <label htmlFor="company" className="block text-sm font-medium text-foreground">
-                    Company *
-                  </label>
-                  <input
-                    type="text"
-                    id="company"
-                    name="company"
-                    required
-                    className="mt-2 block w-full rounded-md border border-input bg-background px-3 py-2 text-foreground placeholder-muted-foreground focus:border-purple-600 focus:outline-none focus:ring-1 focus:ring-purple-600"
-                  />
-                </div>
-
-                <div>
-                  <label htmlFor="jobTitle" className="block text-sm font-medium text-foreground">
-                    Job Title *
-                  </label>
-                  <input
-                    type="text"
-                    id="jobTitle"
-                    name="jobTitle"
-                    required
-                    className="mt-2 block w-full rounded-md border border-input bg-background px-3 py-2 text-foreground placeholder-muted-foreground focus:border-purple-600 focus:outline-none focus:ring-1 focus:ring-purple-600"
-                  />
-                </div>
-              </div>
-
               <div>
-                <label htmlFor="phone" className="block text-sm font-medium text-foreground">
-                  Phone (optional)
+                <label htmlFor="company" className="block text-sm font-medium text-foreground">
+                  Company *
                 </label>
                 <input
-                  type="tel"
-                  id="phone"
-                  name="phone"
-                  className="mt-2 block w-full rounded-md border border-input bg-background px-3 py-2 text-foreground placeholder-muted-foreground focus:border-purple-600 focus:outline-none focus:ring-1 focus:ring-purple-600"
+                  type="text"
+                  id="company"
+                  name="company"
+                  required
+                  placeholder="Your company name"
+                  className="mt-2 block w-full rounded-md border border-input bg-background px-4 py-3 text-foreground placeholder-muted-foreground focus:border-purple-600 focus:outline-none focus:ring-1 focus:ring-purple-600"
                 />
               </div>
 
               <div>
-                <label htmlFor="companyType" className="block text-sm font-medium text-foreground">
-                  Company Type *
-                </label>
-                <select
-                  id="companyType"
-                  name="companyType"
-                  required
-                  className="mt-2 block w-full rounded-md border border-input bg-background px-3 py-2 text-foreground focus:border-purple-600 focus:outline-none focus:ring-1 focus:ring-purple-600"
-                >
-                  <option value="">Select company type</option>
-                  <option value="advertiser">Advertiser/Brand</option>
-                  <option value="agency">Agency</option>
-                  <option value="publisher">Publisher/Platform</option>
-                  <option value="technology">Technology Partner</option>
-                  <option value="other">Other</option>
-                </select>
-              </div>
-
-              <div>
-                <label htmlFor="interest" className="block text-sm font-medium text-foreground">
-                  Primary Interest *
+              <label htmlFor="interest" className="block text-sm font-medium text-foreground">
+                  I&apos;m interested in *
                 </label>
                 <select
                   id="interest"
                   name="interest"
                   required
-                  className="mt-2 block w-full rounded-md border border-input bg-background px-3 py-2 text-foreground focus:border-purple-600 focus:outline-none focus:ring-1 focus:ring-purple-600"
+                  className="mt-2 block w-full rounded-md border border-input bg-background px-4 py-3 text-foreground focus:border-purple-600 focus:outline-none focus:ring-1 focus:ring-purple-600"
                 >
-                  <option value="">Select primary interest</option>
-                  <option value="audience">SYNC Audience</option>
-                  <option value="adlytics">SYNC Adlytics</option>
-                  <option value="pulse">SYNC Pulse</option>
-                  <option value="platform">Full Platform</option>
-                </select>
-              </div>
-
-              <div>
-                <label htmlFor="industry" className="block text-sm font-medium text-foreground">
-                  Industry *
-                </label>
-                <select
-                  id="industry"
-                  name="industry"
-                  required
-                  className="mt-2 block w-full rounded-md border border-input bg-background px-3 py-2 text-foreground focus:border-purple-600 focus:outline-none focus:ring-1 focus:ring-purple-600"
-                >
-                  <option value="">Select industry</option>
-                  <option value="automotive">Automotive</option>
-                  <option value="cpg">Consumer Goods</option>
-                  <option value="financial">Financial Services</option>
-                  <option value="telecom">Telecom</option>
-                  <option value="entertainment">Entertainment & OTT</option>
-                  <option value="ecommerce">E-Commerce</option>
-                  <option value="pharma">Pharma & Healthcare</option>
-                  <option value="travel">Travel & Hospitality</option>
-                  <option value="other">Other</option>
+                  <option value="">Select an option</option>
+                  <option value="demo">Platform Demo</option>
+                  <option value="diagnostic">Rapid Diagnostic</option>
+                  <option value="consultation">Consultation</option>
+                  <option value="partnership">Partnership</option>
                 </select>
               </div>
 
               <div>
                 <label htmlFor="message" className="block text-sm font-medium text-foreground">
-                  Message/Comments
+                  Message
                 </label>
                 <textarea
                   id="message"
                   name="message"
                   rows={4}
-                  className="mt-2 block w-full rounded-md border border-input bg-background px-3 py-2 text-foreground placeholder-muted-foreground focus:border-purple-600 focus:outline-none focus:ring-1 focus:ring-purple-600"
+                  className="mt-2 block w-full rounded-md border border-input bg-background px-4 py-3 text-foreground placeholder-muted-foreground focus:border-purple-600 focus:outline-none focus:ring-1 focus:ring-purple-600"
                   placeholder="Tell us about your needs..."
                 />
               </div>
 
-              <div>
-                <label htmlFor="source" className="block text-sm font-medium text-foreground">
-                  How did you hear about us?
-                </label>
-                <input
-                  type="text"
-                  id="source"
-                  name="source"
-                  className="mt-2 block w-full rounded-md border border-input bg-background px-3 py-2 text-foreground placeholder-muted-foreground focus:border-purple-600 focus:outline-none focus:ring-1 focus:ring-purple-600"
-                />
-              </div>
-
-              <div className="rounded-lg bg-muted/50 p-4">
-                <p className="text-sm text-muted-foreground">
-                  <strong>Privacy Notice:</strong> We respect your privacy. Your information is used only to
-                  respond to your inquiry and share relevant SYNC OS updates. We never sell or share your data
-                  with third parties.
-                </p>
-              </div>
-
               <Button type="submit" size="lg" className="w-full bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700">
-                Submit
+                Send Message
               </Button>
+
+              <p className="text-center text-xs text-muted-foreground">
+                We&apos;ll respond within 24 hours
+              </p>
             </form>
           </div>
         </div>

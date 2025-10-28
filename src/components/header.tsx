@@ -3,6 +3,14 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
+import {
+  NavigationMenu,
+  NavigationMenuContent,
+  NavigationMenuItem,
+  NavigationMenuLink,
+  NavigationMenuList,
+  NavigationMenuTrigger,
+} from "@/components/ui/navigation-menu";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -42,36 +50,44 @@ export function Header() {
 
         {/* Desktop Navigation */}
         <div className="hidden items-center gap-8 lg:flex">
-          {navigation.map((item) =>
-            item.submenu ? (
-              <div key={item.name} className="group relative">
-                <button className="text-sm font-medium transition-colors hover:text-purple-400">
-                  {item.name}
-                </button>
-                <div className="absolute left-0 top-full hidden w-48 pt-2 group-hover:block">
-                  <div className="rounded-lg border border-white/10 bg-background/95 p-2 backdrop-blur-lg">
-                    {item.submenu.map((subitem) => (
+          <NavigationMenu>
+            <NavigationMenuList>
+              {navigation.map((item) =>
+                item.submenu ? (
+                  <NavigationMenuItem key={item.name}>
+                    <NavigationMenuTrigger className="text-sm font-medium transition-colors hover:text-purple-400">
+                      {item.name}
+                    </NavigationMenuTrigger>
+                    <NavigationMenuContent>
+                      <div className="w-48 p-2">
+                        {item.submenu.map((subitem) => (
+                          <NavigationMenuLink key={subitem.name} asChild>
+                            <Link
+                              href={subitem.href}
+                              className="block rounded px-4 py-2 text-sm transition-colors hover:bg-white/5 hover:text-purple-400"
+                            >
+                              {subitem.name}
+                            </Link>
+                          </NavigationMenuLink>
+                        ))}
+                      </div>
+                    </NavigationMenuContent>
+                  </NavigationMenuItem>
+                ) : (
+                  <NavigationMenuItem key={item.name}>
+                    <NavigationMenuLink asChild>
                       <Link
-                        key={subitem.name}
-                        href={subitem.href}
-                        className="block rounded px-4 py-2 text-sm transition-colors hover:bg-white/5 hover:text-purple-400"
+                        href={item.href}
+                        className="text-sm font-medium transition-colors hover:text-purple-400"
                       >
-                        {subitem.name}
+                        {item.name}
                       </Link>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            ) : (
-              <Link
-                key={item.name}
-                href={item.href}
-                className="text-sm font-medium transition-colors hover:text-purple-400"
-              >
-                {item.name}
-              </Link>
-            )
-          )}
+                    </NavigationMenuLink>
+                  </NavigationMenuItem>
+                )
+              )}
+            </NavigationMenuList>
+          </NavigationMenu>
 
           <Button
             size="sm"

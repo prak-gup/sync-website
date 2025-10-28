@@ -1,0 +1,710 @@
+{
+  "pagination": {
+    "total": 458,
+    "offset": 100,
+    "limit": 100,
+    "hasMore": true
+  },
+  "items": [
+    {
+      "name": "DecryptedText-JS-CSS",
+      "type": "registry:block",
+      "description": "Hacker-style decryption cycling random glyphs until resolving to real text.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/DecryptedText-JS-CSS"
+    },
+    {
+      "name": "DecryptedText-JS-TW",
+      "type": "registry:block",
+      "description": "Hacker-style decryption cycling random glyphs until resolving to real text.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/DecryptedText-JS-TW"
+    },
+    {
+      "name": "DecryptedText-TS-CSS",
+      "type": "registry:block",
+      "description": "Hacker-style decryption cycling random glyphs until resolving to real text.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/DecryptedText-TS-CSS"
+    },
+    {
+      "name": "DecryptedText-TS-TW",
+      "type": "registry:block",
+      "description": "Hacker-style decryption cycling random glyphs until resolving to real text.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/DecryptedText-TS-TW"
+    },
+    {
+      "name": "Dither-JS-CSS",
+      "type": "registry:block",
+      "description": "Retro dithered noise shader background.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Dither-JS-CSS"
+    },
+    {
+      "name": "Dither-JS-TW",
+      "type": "registry:block",
+      "description": "Retro dithered noise shader background.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Dither-JS-TW"
+    },
+    {
+      "name": "Dither-TS-CSS",
+      "type": "registry:block",
+      "description": "Retro dithered noise shader background.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Dither-TS-CSS"
+    },
+    {
+      "name": "Dither-TS-TW",
+      "type": "registry:block",
+      "description": "Retro dithered noise shader background.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Dither-TS-TW"
+    },
+    {
+      "name": "Dock-JS-CSS",
+      "type": "registry:block",
+      "description": "macOS style magnifying dock with proximity scaling of icons.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Dock-JS-CSS"
+    },
+    {
+      "name": "Dock-JS-TW",
+      "type": "registry:block",
+      "description": "macOS style magnifying dock with proximity scaling of icons.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Dock-JS-TW"
+    },
+    {
+      "name": "Dock-TS-CSS",
+      "type": "registry:block",
+      "description": "macOS style magnifying dock with proximity scaling of icons.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Dock-TS-CSS"
+    },
+    {
+      "name": "Dock-TS-TW",
+      "type": "registry:block",
+      "description": "macOS style magnifying dock with proximity scaling of icons.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Dock-TS-TW"
+    },
+    {
+      "name": "DomeGallery-JS-CSS",
+      "type": "registry:block",
+      "description": "Immersive 3D dome gallery projecting images on a hemispheric surface.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/DomeGallery-JS-CSS"
+    },
+    {
+      "name": "DomeGallery-JS-TW",
+      "type": "registry:block",
+      "description": "Immersive 3D dome gallery projecting images on a hemispheric surface.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/DomeGallery-JS-TW"
+    },
+    {
+      "name": "DomeGallery-TS-CSS",
+      "type": "registry:block",
+      "description": "Immersive 3D dome gallery projecting images on a hemispheric surface.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/DomeGallery-TS-CSS"
+    },
+    {
+      "name": "DomeGallery-TS-TW",
+      "type": "registry:block",
+      "description": "Immersive 3D dome gallery projecting images on a hemispheric surface.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/DomeGallery-TS-TW"
+    },
+    {
+      "name": "DotGrid-JS-CSS",
+      "type": "registry:block",
+      "description": "Animated dot grid with cursor interactions.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/DotGrid-JS-CSS"
+    },
+    {
+      "name": "DotGrid-JS-TW",
+      "type": "registry:block",
+      "description": "Animated dot grid with cursor interactions.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/DotGrid-JS-TW"
+    },
+    {
+      "name": "DotGrid-TS-CSS",
+      "type": "registry:block",
+      "description": "Animated dot grid with cursor interactions.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/DotGrid-TS-CSS"
+    },
+    {
+      "name": "DotGrid-TS-TW",
+      "type": "registry:block",
+      "description": "Animated dot grid with cursor interactions.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/DotGrid-TS-TW"
+    },
+    {
+      "name": "ElasticSlider-JS-CSS",
+      "type": "registry:block",
+      "description": "Slider handle stretches elastically then snaps with spring physics.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/ElasticSlider-JS-CSS"
+    },
+    {
+      "name": "ElasticSlider-JS-TW",
+      "type": "registry:block",
+      "description": "Slider handle stretches elastically then snaps with spring physics.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/ElasticSlider-JS-TW"
+    },
+    {
+      "name": "ElasticSlider-TS-CSS",
+      "type": "registry:block",
+      "description": "Slider handle stretches elastically then snaps with spring physics.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/ElasticSlider-TS-CSS"
+    },
+    {
+      "name": "ElasticSlider-TS-TW",
+      "type": "registry:block",
+      "description": "Slider handle stretches elastically then snaps with spring physics.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/ElasticSlider-TS-TW"
+    },
+    {
+      "name": "ElectricBorder-JS-CSS",
+      "type": "registry:block",
+      "description": "Jittery electric energy border with animated arcs, glow and adjustable intensity.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/ElectricBorder-JS-CSS"
+    },
+    {
+      "name": "ElectricBorder-JS-TW",
+      "type": "registry:block",
+      "description": "Jittery electric energy border with animated arcs, glow and adjustable intensity.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/ElectricBorder-JS-TW"
+    },
+    {
+      "name": "ElectricBorder-TS-CSS",
+      "type": "registry:block",
+      "description": "Jittery electric energy border with animated arcs, glow and adjustable intensity.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/ElectricBorder-TS-CSS"
+    },
+    {
+      "name": "ElectricBorder-TS-TW",
+      "type": "registry:block",
+      "description": "Jittery electric energy border with animated arcs, glow and adjustable intensity.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/ElectricBorder-TS-TW"
+    },
+    {
+      "name": "FadeContent-JS-CSS",
+      "type": "registry:block",
+      "description": "Simple directional fade / slide entrance wrapper with threshold-based activation.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/FadeContent-JS-CSS"
+    },
+    {
+      "name": "FadeContent-JS-TW",
+      "type": "registry:block",
+      "description": "Simple directional fade / slide entrance wrapper with threshold-based activation.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/FadeContent-JS-TW"
+    },
+    {
+      "name": "FadeContent-TS-CSS",
+      "type": "registry:block",
+      "description": "Simple directional fade / slide entrance wrapper with threshold-based activation.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/FadeContent-TS-CSS"
+    },
+    {
+      "name": "FadeContent-TS-TW",
+      "type": "registry:block",
+      "description": "Simple directional fade / slide entrance wrapper with threshold-based activation.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/FadeContent-TS-TW"
+    },
+    {
+      "name": "FallingText-JS-CSS",
+      "type": "registry:block",
+      "description": "Characters fall with gravity + bounce creating a playful entrance.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/FallingText-JS-CSS"
+    },
+    {
+      "name": "FallingText-JS-TW",
+      "type": "registry:block",
+      "description": "Characters fall with gravity + bounce creating a playful entrance.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/FallingText-JS-TW"
+    },
+    {
+      "name": "FallingText-TS-CSS",
+      "type": "registry:block",
+      "description": "Characters fall with gravity + bounce creating a playful entrance.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/FallingText-TS-CSS"
+    },
+    {
+      "name": "FallingText-TS-TW",
+      "type": "registry:block",
+      "description": "Characters fall with gravity + bounce creating a playful entrance.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/FallingText-TS-TW"
+    },
+    {
+      "name": "FaultyTerminal-JS-CSS",
+      "type": "registry:block",
+      "description": "Terminal CRT scanline squares effect with flicker + noise.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/FaultyTerminal-JS-CSS"
+    },
+    {
+      "name": "FaultyTerminal-JS-TW",
+      "type": "registry:block",
+      "description": "Terminal CRT scanline squares effect with flicker + noise.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/FaultyTerminal-JS-TW"
+    },
+    {
+      "name": "FaultyTerminal-TS-CSS",
+      "type": "registry:block",
+      "description": "Terminal CRT scanline squares effect with flicker + noise.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/FaultyTerminal-TS-CSS"
+    },
+    {
+      "name": "FaultyTerminal-TS-TW",
+      "type": "registry:block",
+      "description": "Terminal CRT scanline squares effect with flicker + noise.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/FaultyTerminal-TS-TW"
+    },
+    {
+      "name": "FlowingMenu-JS-CSS",
+      "type": "registry:block",
+      "description": "Liquid flowing active indicator glides between menu items.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/FlowingMenu-JS-CSS"
+    },
+    {
+      "name": "FlowingMenu-JS-TW",
+      "type": "registry:block",
+      "description": "Liquid flowing active indicator glides between menu items.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/FlowingMenu-JS-TW"
+    },
+    {
+      "name": "FlowingMenu-TS-CSS",
+      "type": "registry:block",
+      "description": "Liquid flowing active indicator glides between menu items.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/FlowingMenu-TS-CSS"
+    },
+    {
+      "name": "FlowingMenu-TS-TW",
+      "type": "registry:block",
+      "description": "Liquid flowing active indicator glides between menu items.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/FlowingMenu-TS-TW"
+    },
+    {
+      "name": "FluidGlass-JS-CSS",
+      "type": "registry:block",
+      "description": "Glassmorphism container with animated liquid distortion refraction.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/FluidGlass-JS-CSS"
+    },
+    {
+      "name": "FluidGlass-JS-TW",
+      "type": "registry:block",
+      "description": "Glassmorphism container with animated liquid distortion refraction.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/FluidGlass-JS-TW"
+    },
+    {
+      "name": "FluidGlass-TS-CSS",
+      "type": "registry:block",
+      "description": "Glassmorphism container with animated liquid distortion refraction.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/FluidGlass-TS-CSS"
+    },
+    {
+      "name": "FluidGlass-TS-TW",
+      "type": "registry:block",
+      "description": "Glassmorphism container with animated liquid distortion refraction.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/FluidGlass-TS-TW"
+    },
+    {
+      "name": "FlyingPosters-JS-CSS",
+      "type": "registry:block",
+      "description": "3D posters rotate on scroll infinitely.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/FlyingPosters-JS-CSS"
+    },
+    {
+      "name": "FlyingPosters-JS-TW",
+      "type": "registry:block",
+      "description": "3D posters rotate on scroll infinitely.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/FlyingPosters-JS-TW"
+    },
+    {
+      "name": "FlyingPosters-TS-CSS",
+      "type": "registry:block",
+      "description": "3D posters rotate on scroll infinitely.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/FlyingPosters-TS-CSS"
+    },
+    {
+      "name": "FlyingPosters-TS-TW",
+      "type": "registry:block",
+      "description": "3D posters rotate on scroll infinitely.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/FlyingPosters-TS-TW"
+    },
+    {
+      "name": "Folder-JS-CSS",
+      "type": "registry:block",
+      "description": "Interactive folder opens to reveal nested content smooth motion.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Folder-JS-CSS"
+    },
+    {
+      "name": "Folder-JS-TW",
+      "type": "registry:block",
+      "description": "Interactive folder opens to reveal nested content smooth motion.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Folder-JS-TW"
+    },
+    {
+      "name": "Folder-TS-CSS",
+      "type": "registry:block",
+      "description": "Interactive folder opens to reveal nested content smooth motion.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Folder-TS-CSS"
+    },
+    {
+      "name": "Folder-TS-TW",
+      "type": "registry:block",
+      "description": "Interactive folder opens to reveal nested content smooth motion.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Folder-TS-TW"
+    },
+    {
+      "name": "FuzzyText-JS-CSS",
+      "type": "registry:block",
+      "description": "Vibrating fuzzy text with controllable hover intensity.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/FuzzyText-JS-CSS"
+    },
+    {
+      "name": "FuzzyText-JS-TW",
+      "type": "registry:block",
+      "description": "Vibrating fuzzy text with controllable hover intensity.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/FuzzyText-JS-TW"
+    },
+    {
+      "name": "FuzzyText-TS-CSS",
+      "type": "registry:block",
+      "description": "Vibrating fuzzy text with controllable hover intensity.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/FuzzyText-TS-CSS"
+    },
+    {
+      "name": "FuzzyText-TS-TW",
+      "type": "registry:block",
+      "description": "Vibrating fuzzy text with controllable hover intensity.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/FuzzyText-TS-TW"
+    },
+    {
+      "name": "Galaxy-JS-CSS",
+      "type": "registry:block",
+      "description": "Parallax realistic starfield with pointer interactions.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Galaxy-JS-CSS"
+    },
+    {
+      "name": "Galaxy-JS-TW",
+      "type": "registry:block",
+      "description": "Parallax realistic starfield with pointer interactions.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Galaxy-JS-TW"
+    },
+    {
+      "name": "Galaxy-TS-CSS",
+      "type": "registry:block",
+      "description": "Parallax realistic starfield with pointer interactions.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Galaxy-TS-CSS"
+    },
+    {
+      "name": "Galaxy-TS-TW",
+      "type": "registry:block",
+      "description": "Parallax realistic starfield with pointer interactions.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Galaxy-TS-TW"
+    },
+    {
+      "name": "GlareHover-JS-CSS",
+      "type": "registry:block",
+      "description": "Adds a realistic moving glare highlight on hover over any element.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/GlareHover-JS-CSS"
+    },
+    {
+      "name": "GlareHover-JS-TW",
+      "type": "registry:block",
+      "description": "Adds a realistic moving glare highlight on hover over any element.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/GlareHover-JS-TW"
+    },
+    {
+      "name": "GlareHover-TS-CSS",
+      "type": "registry:block",
+      "description": "Adds a realistic moving glare highlight on hover over any element.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/GlareHover-TS-CSS"
+    },
+    {
+      "name": "GlareHover-TS-TW",
+      "type": "registry:block",
+      "description": "Adds a realistic moving glare highlight on hover over any element.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/GlareHover-TS-TW"
+    },
+    {
+      "name": "GlassIcons-JS-CSS",
+      "type": "registry:block",
+      "description": "Icon set styled with frosted glass blur.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/GlassIcons-JS-CSS"
+    },
+    {
+      "name": "GlassIcons-JS-TW",
+      "type": "registry:block",
+      "description": "Icon set styled with frosted glass blur.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/GlassIcons-JS-TW"
+    },
+    {
+      "name": "GlassIcons-TS-CSS",
+      "type": "registry:block",
+      "description": "Icon set styled with frosted glass blur.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/GlassIcons-TS-CSS"
+    },
+    {
+      "name": "GlassIcons-TS-TW",
+      "type": "registry:block",
+      "description": "Icon set styled with frosted glass blur.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/GlassIcons-TS-TW"
+    },
+    {
+      "name": "GlassSurface-JS-CSS",
+      "type": "registry:block",
+      "description": "Advanced Apple-style glass surface with real-time distortion + lighting.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/GlassSurface-JS-CSS"
+    },
+    {
+      "name": "GlassSurface-JS-TW",
+      "type": "registry:block",
+      "description": "Advanced Apple-style glass surface with real-time distortion + lighting.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/GlassSurface-JS-TW"
+    },
+    {
+      "name": "GlassSurface-TS-CSS",
+      "type": "registry:block",
+      "description": "Advanced Apple-style glass surface with real-time distortion + lighting.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/GlassSurface-TS-CSS"
+    },
+    {
+      "name": "GlassSurface-TS-TW",
+      "type": "registry:block",
+      "description": "Advanced Apple-style glass surface with real-time distortion + lighting.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/GlassSurface-TS-TW"
+    },
+    {
+      "name": "GlitchText-JS-CSS",
+      "type": "registry:block",
+      "description": "RGB split and distortion glitch effect with jitter effects.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/GlitchText-JS-CSS"
+    },
+    {
+      "name": "GlitchText-JS-TW",
+      "type": "registry:block",
+      "description": "RGB split and distortion glitch effect with jitter effects.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/GlitchText-JS-TW"
+    },
+    {
+      "name": "GlitchText-TS-CSS",
+      "type": "registry:block",
+      "description": "RGB split and distortion glitch effect with jitter effects.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/GlitchText-TS-CSS"
+    },
+    {
+      "name": "GlitchText-TS-TW",
+      "type": "registry:block",
+      "description": "RGB split and distortion glitch effect with jitter effects.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/GlitchText-TS-TW"
+    },
+    {
+      "name": "GooeyNav-JS-CSS",
+      "type": "registry:block",
+      "description": "Navigation indicator morphs with gooey blob transitions between items.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/GooeyNav-JS-CSS"
+    },
+    {
+      "name": "GooeyNav-JS-TW",
+      "type": "registry:block",
+      "description": "Navigation indicator morphs with gooey blob transitions between items.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/GooeyNav-JS-TW"
+    },
+    {
+      "name": "GooeyNav-TS-CSS",
+      "type": "registry:block",
+      "description": "Navigation indicator morphs with gooey blob transitions between items.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/GooeyNav-TS-CSS"
+    },
+    {
+      "name": "GooeyNav-TS-TW",
+      "type": "registry:block",
+      "description": "Navigation indicator morphs with gooey blob transitions between items.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/GooeyNav-TS-TW"
+    },
+    {
+      "name": "GradientBlinds-JS-CSS",
+      "type": "registry:block",
+      "description": "Layered gradient blinds with spotlight and noise distortion.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/GradientBlinds-JS-CSS"
+    },
+    {
+      "name": "GradientBlinds-JS-TW",
+      "type": "registry:block",
+      "description": "Layered gradient blinds with spotlight and noise distortion.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/GradientBlinds-JS-TW"
+    },
+    {
+      "name": "GradientBlinds-TS-CSS",
+      "type": "registry:block",
+      "description": "Layered gradient blinds with spotlight and noise distortion.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/GradientBlinds-TS-CSS"
+    },
+    {
+      "name": "GradientBlinds-TS-TW",
+      "type": "registry:block",
+      "description": "Layered gradient blinds with spotlight and noise distortion.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/GradientBlinds-TS-TW"
+    },
+    {
+      "name": "GradientText-JS-CSS",
+      "type": "registry:block",
+      "description": "Animated gradient sweep across live text with speed and color control.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/GradientText-JS-CSS"
+    },
+    {
+      "name": "GradientText-JS-TW",
+      "type": "registry:block",
+      "description": "Animated gradient sweep across live text with speed and color control.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/GradientText-JS-TW"
+    },
+    {
+      "name": "GradientText-TS-CSS",
+      "type": "registry:block",
+      "description": "Animated gradient sweep across live text with speed and color control.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/GradientText-TS-CSS"
+    },
+    {
+      "name": "GradientText-TS-TW",
+      "type": "registry:block",
+      "description": "Animated gradient sweep across live text with speed and color control.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/GradientText-TS-TW"
+    },
+    {
+      "name": "GradualBlur-JS-CSS",
+      "type": "registry:block",
+      "description": "Progressively un-blurs content based on scroll or trigger creating a cinematic reveal.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/GradualBlur-JS-CSS"
+    },
+    {
+      "name": "GradualBlur-JS-TW",
+      "type": "registry:block",
+      "description": "Progressively un-blurs content based on scroll or trigger creating a cinematic reveal.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/GradualBlur-JS-TW"
+    },
+    {
+      "name": "GradualBlur-TS-CSS",
+      "type": "registry:block",
+      "description": "Progressively un-blurs content based on scroll or trigger creating a cinematic reveal.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/GradualBlur-TS-CSS"
+    },
+    {
+      "name": "GradualBlur-TS-TW",
+      "type": "registry:block",
+      "description": "Progressively un-blurs content based on scroll or trigger creating a cinematic reveal.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/GradualBlur-TS-TW"
+    },
+    {
+      "name": "GridDistortion-JS-CSS",
+      "type": "registry:block",
+      "description": "Warped grid mesh distorts smoothly reacting to cursor.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/GridDistortion-JS-CSS"
+    },
+    {
+      "name": "GridDistortion-JS-TW",
+      "type": "registry:block",
+      "description": "Warped grid mesh distorts smoothly reacting to cursor.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/GridDistortion-JS-TW"
+    },
+    {
+      "name": "GridDistortion-TS-CSS",
+      "type": "registry:block",
+      "description": "Warped grid mesh distorts smoothly reacting to cursor.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/GridDistortion-TS-CSS"
+    },
+    {
+      "name": "GridDistortion-TS-TW",
+      "type": "registry:block",
+      "description": "Warped grid mesh distorts smoothly reacting to cursor.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/GridDistortion-TS-TW"
+    }
+  ]
+}

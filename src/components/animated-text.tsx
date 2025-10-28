@@ -10,7 +10,7 @@ interface AnimatedTextProps {
   duration?: number;
 }
 
-export function AnimatedText({ text, className = "", delay = 0, duration = 0.5 }: AnimatedTextProps) {
+export function AnimatedText({ text, className = "", delay = 0, duration: _duration = 0.5 }: AnimatedTextProps) {
   const words = text.split(" ");
 
   const container = {

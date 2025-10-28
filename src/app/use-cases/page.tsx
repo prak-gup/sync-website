@@ -1,7 +1,7 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { ArrowRight, Check } from "lucide-react";
 import Link from "next/link";
 import { StackingCards, StackingCard } from "@/components/stacking-cards";
@@ -111,7 +111,7 @@ export default function UseCasesPage() {
             </h1>
             <p className="mt-6 text-lg leading-8 text-muted-foreground">
               Explore how SYNC OS solves cross-media planning, optimization, and measurement challenges
-              across India's diverse markets and languages.
+              across India&apos;s diverse markets and languages.
             </p>
           </div>
         </div>
@@ -183,9 +183,11 @@ export default function UseCasesPage() {
               "Pharma & Healthcare",
               "Travel & Hospitality",
             ].map((industry) => (
-              <div key={industry} className="rounded-lg border border-border bg-card p-6 text-center">
-                <p className="font-medium">{industry}</p>
-              </div>
+              <Card key={industry} className="text-center">
+                <CardContent className="p-6">
+                  <p className="font-medium">{industry}</p>
+                </CardContent>
+              </Card>
             ))}
           </div>
         </div>

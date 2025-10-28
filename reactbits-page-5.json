@@ -1,0 +1,416 @@
+{
+  "pagination": {
+    "total": 458,
+    "offset": 400,
+    "limit": 100,
+    "hasMore": false
+  },
+  "items": [
+    {
+      "name": "Stack-TS-CSS",
+      "type": "registry:block",
+      "description": "Layered stack with swipe animations and smooth transitions.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Stack-TS-CSS"
+    },
+    {
+      "name": "Stack-TS-TW",
+      "type": "registry:block",
+      "description": "Layered stack with swipe animations and smooth transitions.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Stack-TS-TW"
+    },
+    {
+      "name": "StaggeredMenu-JS-CSS",
+      "type": "registry:block",
+      "description": "Menu with staggered item animations and smooth transitions on open/close.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/StaggeredMenu-JS-CSS"
+    },
+    {
+      "name": "StaggeredMenu-JS-TW",
+      "type": "registry:block",
+      "description": "Menu with staggered item animations and smooth transitions on open/close.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/StaggeredMenu-JS-TW"
+    },
+    {
+      "name": "StaggeredMenu-TS-CSS",
+      "type": "registry:block",
+      "description": "Menu with staggered item animations and smooth transitions on open/close.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/StaggeredMenu-TS-CSS"
+    },
+    {
+      "name": "StaggeredMenu-TS-TW",
+      "type": "registry:block",
+      "description": "Menu with staggered item animations and smooth transitions on open/close.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/StaggeredMenu-TS-TW"
+    },
+    {
+      "name": "StarBorder-JS-CSS",
+      "type": "registry:block",
+      "description": "Animated star / sparkle border orbiting content with twinkle pulses.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/StarBorder-JS-CSS"
+    },
+    {
+      "name": "StarBorder-JS-TW",
+      "type": "registry:block",
+      "description": "Animated star / sparkle border orbiting content with twinkle pulses.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/StarBorder-JS-TW"
+    },
+    {
+      "name": "StarBorder-TS-CSS",
+      "type": "registry:block",
+      "description": "Animated star / sparkle border orbiting content with twinkle pulses.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/StarBorder-TS-CSS"
+    },
+    {
+      "name": "StarBorder-TS-TW",
+      "type": "registry:block",
+      "description": "Animated star / sparkle border orbiting content with twinkle pulses.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/StarBorder-TS-TW"
+    },
+    {
+      "name": "Stepper-JS-CSS",
+      "type": "registry:block",
+      "description": "Animated multi-step progress indicator with active state transitions.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Stepper-JS-CSS"
+    },
+    {
+      "name": "Stepper-JS-TW",
+      "type": "registry:block",
+      "description": "Animated multi-step progress indicator with active state transitions.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Stepper-JS-TW"
+    },
+    {
+      "name": "Stepper-TS-CSS",
+      "type": "registry:block",
+      "description": "Animated multi-step progress indicator with active state transitions.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Stepper-TS-CSS"
+    },
+    {
+      "name": "Stepper-TS-TW",
+      "type": "registry:block",
+      "description": "Animated multi-step progress indicator with active state transitions.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Stepper-TS-TW"
+    },
+    {
+      "name": "StickerPeel-JS-CSS",
+      "type": "registry:block",
+      "description": "Sticker corner lift + peel interaction using 3D transform and shadow depth.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/StickerPeel-JS-CSS"
+    },
+    {
+      "name": "StickerPeel-JS-TW",
+      "type": "registry:block",
+      "description": "Sticker corner lift + peel interaction using 3D transform and shadow depth.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/StickerPeel-JS-TW"
+    },
+    {
+      "name": "StickerPeel-TS-CSS",
+      "type": "registry:block",
+      "description": "Sticker corner lift + peel interaction using 3D transform and shadow depth.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/StickerPeel-TS-CSS"
+    },
+    {
+      "name": "StickerPeel-TS-TW",
+      "type": "registry:block",
+      "description": "Sticker corner lift + peel interaction using 3D transform and shadow depth.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/StickerPeel-TS-TW"
+    },
+    {
+      "name": "TargetCursor-JS-CSS",
+      "type": "registry:block",
+      "description": "A cursor follow animation with 4 corners that lock onto targets.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/TargetCursor-JS-CSS"
+    },
+    {
+      "name": "TargetCursor-JS-TW",
+      "type": "registry:block",
+      "description": "A cursor follow animation with 4 corners that lock onto targets.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/TargetCursor-JS-TW"
+    },
+    {
+      "name": "TargetCursor-TS-CSS",
+      "type": "registry:block",
+      "description": "A cursor follow animation with 4 corners that lock onto targets.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/TargetCursor-TS-CSS"
+    },
+    {
+      "name": "TargetCursor-TS-TW",
+      "type": "registry:block",
+      "description": "A cursor follow animation with 4 corners that lock onto targets.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/TargetCursor-TS-TW"
+    },
+    {
+      "name": "TextCursor-JS-CSS",
+      "type": "registry:block",
+      "description": "Make any text element follow your cursor, leaving a trail of copies behind it.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/TextCursor-JS-CSS"
+    },
+    {
+      "name": "TextCursor-JS-TW",
+      "type": "registry:block",
+      "description": "Make any text element follow your cursor, leaving a trail of copies behind it.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/TextCursor-JS-TW"
+    },
+    {
+      "name": "TextCursor-TS-CSS",
+      "type": "registry:block",
+      "description": "Make any text element follow your cursor, leaving a trail of copies behind it.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/TextCursor-TS-CSS"
+    },
+    {
+      "name": "TextCursor-TS-TW",
+      "type": "registry:block",
+      "description": "Make any text element follow your cursor, leaving a trail of copies behind it.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/TextCursor-TS-TW"
+    },
+    {
+      "name": "TextPressure-JS-CSS",
+      "type": "registry:block",
+      "description": "Characters scale / warp interactively based on pointer pressure zone.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/TextPressure-JS-CSS"
+    },
+    {
+      "name": "TextPressure-JS-TW",
+      "type": "registry:block",
+      "description": "Characters scale / warp interactively based on pointer pressure zone.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/TextPressure-JS-TW"
+    },
+    {
+      "name": "TextPressure-TS-CSS",
+      "type": "registry:block",
+      "description": "Characters scale / warp interactively based on pointer pressure zone.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/TextPressure-TS-CSS"
+    },
+    {
+      "name": "TextPressure-TS-TW",
+      "type": "registry:block",
+      "description": "Characters scale / warp interactively based on pointer pressure zone.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/TextPressure-TS-TW"
+    },
+    {
+      "name": "TextTrail-JS-CSS",
+      "type": "registry:block",
+      "description": "3D trail effect that follows the cursor and changes the text's appearance.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/TextTrail-JS-CSS"
+    },
+    {
+      "name": "TextTrail-JS-TW",
+      "type": "registry:block",
+      "description": "3D trail effect that follows the cursor and changes the text's appearance.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/TextTrail-JS-TW"
+    },
+    {
+      "name": "TextTrail-TS-CSS",
+      "type": "registry:block",
+      "description": "3D trail effect that follows the cursor and changes the text's appearance.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/TextTrail-TS-CSS"
+    },
+    {
+      "name": "TextTrail-TS-TW",
+      "type": "registry:block",
+      "description": "3D trail effect that follows the cursor and changes the text's appearance.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/TextTrail-TS-TW"
+    },
+    {
+      "name": "TextType-JS-CSS",
+      "type": "registry:block",
+      "description": "Typewriter effect with blinking cursor and adjustable typing cadence.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/TextType-JS-CSS"
+    },
+    {
+      "name": "TextType-JS-TW",
+      "type": "registry:block",
+      "description": "Typewriter effect with blinking cursor and adjustable typing cadence.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/TextType-JS-TW"
+    },
+    {
+      "name": "TextType-TS-CSS",
+      "type": "registry:block",
+      "description": "Typewriter effect with blinking cursor and adjustable typing cadence.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/TextType-TS-CSS"
+    },
+    {
+      "name": "TextType-TS-TW",
+      "type": "registry:block",
+      "description": "Typewriter effect with blinking cursor and adjustable typing cadence.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/TextType-TS-TW"
+    },
+    {
+      "name": "Threads-JS-CSS",
+      "type": "registry:block",
+      "description": "Animated pattern of lines forming a fabric-like motion.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Threads-JS-CSS"
+    },
+    {
+      "name": "Threads-JS-TW",
+      "type": "registry:block",
+      "description": "Animated pattern of lines forming a fabric-like motion.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Threads-JS-TW"
+    },
+    {
+      "name": "Threads-TS-CSS",
+      "type": "registry:block",
+      "description": "Animated pattern of lines forming a fabric-like motion.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Threads-TS-CSS"
+    },
+    {
+      "name": "Threads-TS-TW",
+      "type": "registry:block",
+      "description": "Animated pattern of lines forming a fabric-like motion.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Threads-TS-TW"
+    },
+    {
+      "name": "TiltedCard-JS-CSS",
+      "type": "registry:block",
+      "description": "3D perspective tilt card reacting to pointer.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/TiltedCard-JS-CSS"
+    },
+    {
+      "name": "TiltedCard-JS-TW",
+      "type": "registry:block",
+      "description": "3D perspective tilt card reacting to pointer.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/TiltedCard-JS-TW"
+    },
+    {
+      "name": "TiltedCard-TS-CSS",
+      "type": "registry:block",
+      "description": "3D perspective tilt card reacting to pointer.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/TiltedCard-TS-CSS"
+    },
+    {
+      "name": "TiltedCard-TS-TW",
+      "type": "registry:block",
+      "description": "3D perspective tilt card reacting to pointer.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/TiltedCard-TS-TW"
+    },
+    {
+      "name": "TrueFocus-JS-CSS",
+      "type": "registry:block",
+      "description": "Applies dynamic blur / clarity based over a series of words in order.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/TrueFocus-JS-CSS"
+    },
+    {
+      "name": "TrueFocus-JS-TW",
+      "type": "registry:block",
+      "description": "Applies dynamic blur / clarity based over a series of words in order.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/TrueFocus-JS-TW"
+    },
+    {
+      "name": "TrueFocus-TS-CSS",
+      "type": "registry:block",
+      "description": "Applies dynamic blur / clarity based over a series of words in order.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/TrueFocus-TS-CSS"
+    },
+    {
+      "name": "TrueFocus-TS-TW",
+      "type": "registry:block",
+      "description": "Applies dynamic blur / clarity based over a series of words in order.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/TrueFocus-TS-TW"
+    },
+    {
+      "name": "VariableProximity-JS-CSS",
+      "type": "registry:block",
+      "description": "Letter styling changes continuously with pointer distance mapping.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/VariableProximity-JS-CSS"
+    },
+    {
+      "name": "VariableProximity-JS-TW",
+      "type": "registry:block",
+      "description": "Letter styling changes continuously with pointer distance mapping.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/VariableProximity-JS-TW"
+    },
+    {
+      "name": "VariableProximity-TS-CSS",
+      "type": "registry:block",
+      "description": "Letter styling changes continuously with pointer distance mapping.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/VariableProximity-TS-CSS"
+    },
+    {
+      "name": "VariableProximity-TS-TW",
+      "type": "registry:block",
+      "description": "Letter styling changes continuously with pointer distance mapping.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/VariableProximity-TS-TW"
+    },
+    {
+      "name": "Waves-JS-CSS",
+      "type": "registry:block",
+      "description": "Layered lines that form smooth wave patterns with animation.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Waves-JS-CSS"
+    },
+    {
+      "name": "Waves-JS-TW",
+      "type": "registry:block",
+      "description": "Layered lines that form smooth wave patterns with animation.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Waves-JS-TW"
+    },
+    {
+      "name": "Waves-TS-CSS",
+      "type": "registry:block",
+      "description": "Layered lines that form smooth wave patterns with animation.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Waves-TS-CSS"
+    },
+    {
+      "name": "Waves-TS-TW",
+      "type": "registry:block",
+      "description": "Layered lines that form smooth wave patterns with animation.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Waves-TS-TW"
+    }
+  ]
+}

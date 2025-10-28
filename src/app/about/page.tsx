@@ -16,7 +16,7 @@ export default function AboutPage() {
         <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8">
           <div className="mx-auto max-w-3xl text-center">
             <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-6xl">
-              Built for India's{" "}
+              Built for India&apos;s{" "}
               <span className="bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
                 Convergent TV Future
               </span>
@@ -41,9 +41,9 @@ export default function AboutPage() {
               and metrics. Reporting is fragmented, duplication is rampant, and ROI proof is slow.
             </p>
             <p className="mt-4 text-lg text-muted-foreground">
-              India's media landscape is uniquely complex: multiple languages, regional preferences, cultural
+              India&apos;s media landscape is uniquely complex: multiple languages, regional preferences, cultural
               moments, and a rapidly evolving mix of linear TV and streaming platforms. Traditional measurement
-              tools weren't built for this reality.
+              tools weren&apos;t built for this reality.
             </p>
 
             <h2 className="mt-16 text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
@@ -54,7 +54,7 @@ export default function AboutPage() {
               cross-media measurement—delivering complete visibility from planning to optimization to proof.
             </p>
             <p className="mt-4 text-lg text-muted-foreground">
-              We built SYNC OS specifically for India's convergent TV reality, with multi-lingual support,
+              We built SYNC OS specifically for India&apos;s convergent TV reality, with multi-lingual support,
               regional flexibility, and integration with the tools advertisers already use.
             </p>
           </div>
@@ -140,7 +140,7 @@ export default function AboutPage() {
 
           <div className="mx-auto mt-12 max-w-3xl text-center">
             <p className="text-lg font-medium text-foreground">
-              Together: The complete operating system for India's convergent TV advertising
+              Together: The complete operating system for India&apos;s convergent TV advertising
             </p>
           </div>
         </div>
@@ -179,13 +179,17 @@ export default function AboutPage() {
               },
               {
                 title: "India Focus",
-                description: "Built specifically for India's unique media landscape, languages, and cultural diversity.",
+                description: "Built specifically for India&apos;s unique media landscape, languages, and cultural diversity.",
               },
             ].map((value, index) => (
-              <div key={index} className="rounded-lg border border-border bg-card p-8">
-                <h3 className="text-xl font-semibold">{value.title}</h3>
-                <p className="mt-4 text-muted-foreground">{value.description}</p>
-              </div>
+              <Card key={index}>
+                <CardHeader>
+                  <CardTitle className="text-xl">{value.title}</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground">{value.description}</p>
+                </CardContent>
+              </Card>
             ))}
           </div>
         </div>

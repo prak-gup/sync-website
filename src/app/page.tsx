@@ -3,7 +3,9 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { AnimatedText, GradientText } from "@/components/animated-text";
+import { Badge } from "@/components/ui/badge";
+import { GradientText } from "@/components/animated-text";
+import { SplitText, AnimatedContent, ShinyText } from "@/components/reactbits";
 import { ArrowRight, Target, TrendingUp, Users } from "lucide-react";
 import { motion } from "framer-motion";
 
@@ -27,28 +29,49 @@ export default function Home() {
             className="space-y-6"
           >
             <h1 className="text-4xl font-bold tracking-tight sm:text-6xl lg:text-7xl leading-tight">
-              <span className="block">SYNC OS:</span>
-              <span className="block font-extrabold" style={{
-                background: 'linear-gradient(to right, rgb(168, 85, 247), rgb(59, 130, 246), rgb(168, 85, 247))',
-                WebkitBackgroundClip: 'text',
-                WebkitTextFillColor: 'transparent',
-                backgroundClip: 'text',
-              }}>
-                Media Operating System
-              </span>
-              <span className="block">for India</span>
+              <SplitText
+                tag="span"
+                text="SYNC OS:"
+                className="block"
+                splitType="chars"
+                delay={50}
+                duration={0.8}
+                ease="power3.out"
+              />
+              <ShinyText
+                tag="span"
+                text="Media Operating System"
+                className="block font-extrabold"
+                duration={3}
+                delay={500}
+                color="rgba(168, 85, 247, 0.8)"
+              />
+              <SplitText
+                tag="span"
+                text="for India"
+                className="block"
+                splitType="words"
+                delay={100}
+                duration={0.6}
+                ease="power3.out"
+              />
             </h1>
 
-            <motion.p
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 1, duration: 0.8 }}
+            <AnimatedContent
+              direction="up"
+              distance={30}
+              duration={1}
+              delay={1000}
               className="mx-auto max-w-2xl text-base text-muted-foreground sm:text-lg"
             >
-              SYNC OS unifies audience intelligence, predictive outcomes, and cross-media measurement
-              across linear TV, CTV/OTT, and digital. Plan smarter, optimize faster, and prove ROI for
-              India's diverse, multi-lingual audiences.
-            </motion.p>
+              <SplitText
+                text="SYNC OS unifies audience intelligence, predictive outcomes, and cross-media measurement across linear TV, CTV/OTT, and digital. Plan smarter, optimize faster, and prove ROI for India&apos;s diverse, multi-lingual audiences."
+                splitType="words"
+                delay={80}
+                duration={0.6}
+                ease="power3.out"
+              />
+            </AnimatedContent>
 
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -112,7 +135,7 @@ export default function Home() {
             </h2>
             <p className="mt-4 text-base text-muted-foreground sm:text-lg">
               From audience targeting to campaign optimization to cross-media measurement,
-              SYNC OS gives you the end-to-end visibility you need to grow in India's fragmented media landscape.
+              SYNC OS gives you the end-to-end visibility you need to grow in India&apos;s fragmented media landscape.
             </p>
           </motion.div>
 
@@ -162,12 +185,13 @@ export default function Home() {
                 link: "/pulse",
               },
             ].map((product, index) => (
-              <motion.div
+              <AnimatedContent
                 key={product.title}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
+                direction="up"
+                distance={40}
+                duration={0.8}
+                delay={index * 200}
+                className="h-full"
               >
                 <Card className="group relative h-full overflow-hidden border-white/10 bg-card/50 backdrop-blur-sm transition-all hover:border-white/20 hover:shadow-[0_0_2rem_-0.5rem_#8b5cf6]">
                   <div className={`absolute inset-0 bg-gradient-to-br from-${product.color}-600/5 to-transparent opacity-0 transition-opacity group-hover:opacity-100`} />
@@ -202,7 +226,7 @@ export default function Home() {
                     </Button>
                   </CardContent>
                 </Card>
-              </motion.div>
+              </AnimatedContent>
             ))}
           </div>
         </div>
@@ -219,7 +243,7 @@ export default function Home() {
             className="mx-auto max-w-3xl text-center"
           >
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-              Built for <GradientText>India's Modern Media Buyers</GradientText>
+              Built for <GradientText>India&apos;s Modern Media Buyers</GradientText>
             </h2>
           </motion.div>
 
@@ -250,17 +274,23 @@ export default function Home() {
                 description: "SYNC OS integrates with leading planning, buying, and analytics tools—no lock-in.",
               },
             ].map((benefit, index) => (
-              <motion.div
+              <AnimatedContent
                 key={benefit.title}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
-                className="group rounded-lg border border-white/10 bg-card/30 p-8 backdrop-blur-sm transition-all hover:border-white/20 hover:bg-card/50"
+                direction="up"
+                distance={30}
+                duration={0.6}
+                delay={index * 150}
+                className="h-full"
               >
-                <h3 className="text-xl font-semibold">{benefit.title}</h3>
-                <p className="mt-4 text-muted-foreground">{benefit.description}</p>
-              </motion.div>
+                <Card className="group h-full border-white/10 bg-card/30 backdrop-blur-sm transition-all hover:border-white/20 hover:bg-card/50">
+                  <CardHeader>
+                    <CardTitle className="text-xl">{benefit.title}</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-muted-foreground">{benefit.description}</p>
+                  </CardContent>
+                </Card>
+              </AnimatedContent>
             ))}
           </div>
         </div>
@@ -284,18 +314,23 @@ export default function Home() {
             </p>
           </motion.div>
 
-          <div className="mx-auto mt-10 grid max-w-7xl grid-cols-2 gap-4 sm:grid-cols-4 lg:gap-6">
+          <div className="mx-auto mt-10 flex flex-wrap justify-center gap-4">
             {["Automotive", "Consumer Goods", "Financial Services", "Telecom", "Entertainment & OTT", "E-Commerce", "Pharma & Healthcare", "Travel & Hospitality"].map((industry, index) => (
-              <motion.div
+              <AnimatedContent
                 key={industry}
-                initial={{ opacity: 0, scale: 0.9 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.3, delay: index * 0.05 }}
-                className="rounded-lg border border-white/10 bg-card/30 p-6 text-center backdrop-blur-sm transition-all hover:border-white/20 hover:bg-card/50"
+                direction="up"
+                distance={20}
+                duration={0.5}
+                delay={index * 100}
+                initialScale={0.9}
               >
-                <p className="font-medium">{industry}</p>
-              </motion.div>
+                <Badge 
+                  variant="outline" 
+                  className="border-white/10 bg-card/30 px-6 py-3 text-base font-medium backdrop-blur-sm transition-all hover:border-white/20 hover:bg-card/50"
+                >
+                  {industry}
+                </Badge>
+              </AnimatedContent>
             ))}
           </div>
 
@@ -326,19 +361,38 @@ export default function Home() {
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-purple-900/20 via-background to-background" />
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808008_1px,transparent_1px),linear-gradient(to_bottom,#80808008_1px,transparent_1px)] bg-[size:4rem_4rem]" />
 
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.8 }}
+        <AnimatedContent
+          direction="up"
+          distance={40}
+          duration={1}
+          delay={0}
           className="relative z-10 mx-auto max-w-4xl px-6 text-center"
         >
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl lg:text-5xl">
-            Ready to <GradientText>Modernize Your TV Strategy?</GradientText>
+            <SplitText
+              text="Ready to Modernize Your TV Strategy?"
+              splitType="words"
+              delay={100}
+              duration={0.8}
+              ease="power3.out"
+            />
           </h2>
-          <p className="mt-4 text-base text-muted-foreground sm:text-lg">
-            See how SYNC OS transforms planning, optimization, and measurement for Indian audiences.
-          </p>
+          <AnimatedContent
+            direction="up"
+            distance={20}
+            duration={0.8}
+            delay={800}
+            className="mt-4"
+          >
+            <SplitText
+              text="See how SYNC OS transforms planning, optimization, and measurement for Indian audiences."
+              splitType="words"
+              delay={60}
+              duration={0.6}
+              ease="power3.out"
+              className="text-base text-muted-foreground sm:text-lg"
+            />
+          </AnimatedContent>
           <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Button
               size="lg"
@@ -354,7 +408,7 @@ export default function Home() {
               Get a Rapid Diagnostic
             </Button>
           </div>
-        </motion.div>
+        </AnimatedContent>
       </section>
     </div>
   );

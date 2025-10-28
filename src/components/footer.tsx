@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { Separator } from "@/components/ui/separator";
 
 export function Footer() {
   const products = [
@@ -94,7 +95,8 @@ export function Footer() {
         </div>
 
         {/* Bottom Section */}
-        <div className="mt-12 border-t border-white/10 pt-8">
+        <div className="mt-12">
+          <Separator className="border-white/10 mb-8" />
           <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
             <p className="text-sm text-muted-foreground">
               © {new Date().getFullYear()} SYNC OS. All rights reserved.

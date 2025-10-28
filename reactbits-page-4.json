@@ -1,0 +1,710 @@
+{
+  "pagination": {
+    "total": 458,
+    "offset": 300,
+    "limit": 100,
+    "hasMore": true
+  },
+  "items": [
+    {
+      "name": "PixelBlast-JS-CSS",
+      "type": "registry:block",
+      "description": "Exploding pixel particle bursts with optional liquid postprocessing.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/PixelBlast-JS-CSS"
+    },
+    {
+      "name": "PixelBlast-JS-TW",
+      "type": "registry:block",
+      "description": "Exploding pixel particle bursts with optional liquid postprocessing.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/PixelBlast-JS-TW"
+    },
+    {
+      "name": "PixelBlast-TS-CSS",
+      "type": "registry:block",
+      "description": "Exploding pixel particle bursts with optional liquid postprocessing.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/PixelBlast-TS-CSS"
+    },
+    {
+      "name": "PixelBlast-TS-TW",
+      "type": "registry:block",
+      "description": "Exploding pixel particle bursts with optional liquid postprocessing.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/PixelBlast-TS-TW"
+    },
+    {
+      "name": "PixelCard-JS-CSS",
+      "type": "registry:block",
+      "description": "Card content revealed through pixel expansion transition.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/PixelCard-JS-CSS"
+    },
+    {
+      "name": "PixelCard-JS-TW",
+      "type": "registry:block",
+      "description": "Card content revealed through pixel expansion transition.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/PixelCard-JS-TW"
+    },
+    {
+      "name": "PixelCard-TS-CSS",
+      "type": "registry:block",
+      "description": "Card content revealed through pixel expansion transition.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/PixelCard-TS-CSS"
+    },
+    {
+      "name": "PixelCard-TS-TW",
+      "type": "registry:block",
+      "description": "Card content revealed through pixel expansion transition.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/PixelCard-TS-TW"
+    },
+    {
+      "name": "PixelTrail-JS-CSS",
+      "type": "registry:block",
+      "description": "Pixelated cursor trail emitting fading squares with retro digital feel.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/PixelTrail-JS-CSS"
+    },
+    {
+      "name": "PixelTrail-JS-TW",
+      "type": "registry:block",
+      "description": "Pixelated cursor trail emitting fading squares with retro digital feel.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/PixelTrail-JS-TW"
+    },
+    {
+      "name": "PixelTrail-TS-CSS",
+      "type": "registry:block",
+      "description": "Pixelated cursor trail emitting fading squares with retro digital feel.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/PixelTrail-TS-CSS"
+    },
+    {
+      "name": "PixelTrail-TS-TW",
+      "type": "registry:block",
+      "description": "Pixelated cursor trail emitting fading squares with retro digital feel.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/PixelTrail-TS-TW"
+    },
+    {
+      "name": "PixelTransition-JS-CSS",
+      "type": "registry:block",
+      "description": "Pixel dissolve transition for content reveal on hover.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/PixelTransition-JS-CSS"
+    },
+    {
+      "name": "PixelTransition-JS-TW",
+      "type": "registry:block",
+      "description": "Pixel dissolve transition for content reveal on hover.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/PixelTransition-JS-TW"
+    },
+    {
+      "name": "PixelTransition-TS-CSS",
+      "type": "registry:block",
+      "description": "Pixel dissolve transition for content reveal on hover.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/PixelTransition-TS-CSS"
+    },
+    {
+      "name": "PixelTransition-TS-TW",
+      "type": "registry:block",
+      "description": "Pixel dissolve transition for content reveal on hover.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/PixelTransition-TS-TW"
+    },
+    {
+      "name": "Plasma-JS-CSS",
+      "type": "registry:block",
+      "description": "Organic plasma gradients swirl + morph with smooth turbulence.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Plasma-JS-CSS"
+    },
+    {
+      "name": "Plasma-JS-TW",
+      "type": "registry:block",
+      "description": "Organic plasma gradients swirl + morph with smooth turbulence.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Plasma-JS-TW"
+    },
+    {
+      "name": "Plasma-TS-CSS",
+      "type": "registry:block",
+      "description": "Organic plasma gradients swirl + morph with smooth turbulence.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Plasma-TS-CSS"
+    },
+    {
+      "name": "Plasma-TS-TW",
+      "type": "registry:block",
+      "description": "Organic plasma gradients swirl + morph with smooth turbulence.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Plasma-TS-TW"
+    },
+    {
+      "name": "Prism-JS-CSS",
+      "type": "registry:block",
+      "description": "Rotating prism with configurable intensity, size, and colors.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Prism-JS-CSS"
+    },
+    {
+      "name": "Prism-JS-TW",
+      "type": "registry:block",
+      "description": "Rotating prism with configurable intensity, size, and colors.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Prism-JS-TW"
+    },
+    {
+      "name": "Prism-TS-CSS",
+      "type": "registry:block",
+      "description": "Rotating prism with configurable intensity, size, and colors.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Prism-TS-CSS"
+    },
+    {
+      "name": "Prism-TS-TW",
+      "type": "registry:block",
+      "description": "Rotating prism with configurable intensity, size, and colors.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Prism-TS-TW"
+    },
+    {
+      "name": "PrismaticBurst-JS-CSS",
+      "type": "registry:block",
+      "description": "Burst of light rays with controllable color, distortion, amount.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/PrismaticBurst-JS-CSS"
+    },
+    {
+      "name": "PrismaticBurst-JS-TW",
+      "type": "registry:block",
+      "description": "Burst of light rays with controllable color, distortion, amount.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/PrismaticBurst-JS-TW"
+    },
+    {
+      "name": "PrismaticBurst-TS-CSS",
+      "type": "registry:block",
+      "description": "Burst of light rays with controllable color, distortion, amount.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/PrismaticBurst-TS-CSS"
+    },
+    {
+      "name": "PrismaticBurst-TS-TW",
+      "type": "registry:block",
+      "description": "Burst of light rays with controllable color, distortion, amount.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/PrismaticBurst-TS-TW"
+    },
+    {
+      "name": "ProfileCard-JS-CSS",
+      "type": "registry:block",
+      "description": "Animated profile card glare with 3D hover effect.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/ProfileCard-JS-CSS"
+    },
+    {
+      "name": "ProfileCard-TS-CSS",
+      "type": "registry:block",
+      "description": "Animated profile card glare with 3D hover effect.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/ProfileCard-TS-CSS"
+    },
+    {
+      "name": "Ribbons-JS-CSS",
+      "type": "registry:block",
+      "description": "Flowing responsive ribbons/cursor trail driven by physics and pointer motion.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Ribbons-JS-CSS"
+    },
+    {
+      "name": "Ribbons-JS-TW",
+      "type": "registry:block",
+      "description": "Flowing responsive ribbons/cursor trail driven by physics and pointer motion.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Ribbons-JS-TW"
+    },
+    {
+      "name": "Ribbons-TS-CSS",
+      "type": "registry:block",
+      "description": "Flowing responsive ribbons/cursor trail driven by physics and pointer motion.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Ribbons-TS-CSS"
+    },
+    {
+      "name": "Ribbons-TS-TW",
+      "type": "registry:block",
+      "description": "Flowing responsive ribbons/cursor trail driven by physics and pointer motion.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Ribbons-TS-TW"
+    },
+    {
+      "name": "RippleGrid-JS-CSS",
+      "type": "registry:block",
+      "description": "A grid that continously animates with a ripple effect.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/RippleGrid-JS-CSS"
+    },
+    {
+      "name": "RippleGrid-JS-TW",
+      "type": "registry:block",
+      "description": "A grid that continously animates with a ripple effect.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/RippleGrid-JS-TW"
+    },
+    {
+      "name": "RippleGrid-TS-CSS",
+      "type": "registry:block",
+      "description": "A grid that continously animates with a ripple effect.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/RippleGrid-TS-CSS"
+    },
+    {
+      "name": "RippleGrid-TS-TW",
+      "type": "registry:block",
+      "description": "A grid that continously animates with a ripple effect.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/RippleGrid-TS-TW"
+    },
+    {
+      "name": "RollingGallery-JS-CSS",
+      "type": "registry:block",
+      "description": "3D rolling gallery with drag controls.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/RollingGallery-JS-CSS"
+    },
+    {
+      "name": "RollingGallery-JS-TW",
+      "type": "registry:block",
+      "description": "3D rolling gallery with drag controls.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/RollingGallery-JS-TW"
+    },
+    {
+      "name": "RollingGallery-TS-CSS",
+      "type": "registry:block",
+      "description": "3D rolling gallery with drag controls.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/RollingGallery-TS-CSS"
+    },
+    {
+      "name": "RollingGallery-TS-TW",
+      "type": "registry:block",
+      "description": "3D rolling gallery with drag controls.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/RollingGallery-TS-TW"
+    },
+    {
+      "name": "RotatingText-JS-CSS",
+      "type": "registry:block",
+      "description": "Cycles through multiple phrases with 3D rotate / flip transitions.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/RotatingText-JS-CSS"
+    },
+    {
+      "name": "RotatingText-JS-TW",
+      "type": "registry:block",
+      "description": "Cycles through multiple phrases with 3D rotate / flip transitions.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/RotatingText-JS-TW"
+    },
+    {
+      "name": "RotatingText-TS-CSS",
+      "type": "registry:block",
+      "description": "Cycles through multiple phrases with 3D rotate / flip transitions.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/RotatingText-TS-CSS"
+    },
+    {
+      "name": "RotatingText-TS-TW",
+      "type": "registry:block",
+      "description": "Cycles through multiple phrases with 3D rotate / flip transitions.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/RotatingText-TS-TW"
+    },
+    {
+      "name": "ScrambledText-JS-CSS",
+      "type": "registry:block",
+      "description": "Detects cursor position and applies a distortion effect to text.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/ScrambledText-JS-CSS"
+    },
+    {
+      "name": "ScrambledText-JS-TW",
+      "type": "registry:block",
+      "description": "Detects cursor position and applies a distortion effect to text.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/ScrambledText-JS-TW"
+    },
+    {
+      "name": "ScrambledText-TS-CSS",
+      "type": "registry:block",
+      "description": "Detects cursor position and applies a distortion effect to text.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/ScrambledText-TS-CSS"
+    },
+    {
+      "name": "ScrambledText-TS-TW",
+      "type": "registry:block",
+      "description": "Detects cursor position and applies a distortion effect to text.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/ScrambledText-TS-TW"
+    },
+    {
+      "name": "ScrollFloat-JS-CSS",
+      "type": "registry:block",
+      "description": "Text gently floats / parallax shifts on scroll.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/ScrollFloat-JS-CSS"
+    },
+    {
+      "name": "ScrollFloat-JS-TW",
+      "type": "registry:block",
+      "description": "Text gently floats / parallax shifts on scroll.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/ScrollFloat-JS-TW"
+    },
+    {
+      "name": "ScrollFloat-TS-CSS",
+      "type": "registry:block",
+      "description": "Text gently floats / parallax shifts on scroll.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/ScrollFloat-TS-CSS"
+    },
+    {
+      "name": "ScrollFloat-TS-TW",
+      "type": "registry:block",
+      "description": "Text gently floats / parallax shifts on scroll.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/ScrollFloat-TS-TW"
+    },
+    {
+      "name": "ScrollReveal-JS-CSS",
+      "type": "registry:block",
+      "description": "Text gently unblurs and reveals on scroll.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/ScrollReveal-JS-CSS"
+    },
+    {
+      "name": "ScrollReveal-JS-TW",
+      "type": "registry:block",
+      "description": "Text gently unblurs and reveals on scroll.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/ScrollReveal-JS-TW"
+    },
+    {
+      "name": "ScrollReveal-TS-CSS",
+      "type": "registry:block",
+      "description": "Text gently unblurs and reveals on scroll.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/ScrollReveal-TS-CSS"
+    },
+    {
+      "name": "ScrollReveal-TS-TW",
+      "type": "registry:block",
+      "description": "Text gently unblurs and reveals on scroll.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/ScrollReveal-TS-TW"
+    },
+    {
+      "name": "ScrollStack-JS-CSS",
+      "type": "registry:block",
+      "description": "Overlapping card stack reveals on scroll with depth layering.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/ScrollStack-JS-CSS"
+    },
+    {
+      "name": "ScrollStack-JS-TW",
+      "type": "registry:block",
+      "description": "Overlapping card stack reveals on scroll with depth layering.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/ScrollStack-JS-TW"
+    },
+    {
+      "name": "ScrollStack-TS-CSS",
+      "type": "registry:block",
+      "description": "Overlapping card stack reveals on scroll with depth layering.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/ScrollStack-TS-CSS"
+    },
+    {
+      "name": "ScrollStack-TS-TW",
+      "type": "registry:block",
+      "description": "Overlapping card stack reveals on scroll with depth layering.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/ScrollStack-TS-TW"
+    },
+    {
+      "name": "ScrollVelocity-JS-CSS",
+      "type": "registry:block",
+      "description": "Text marquee animatio - speed and distortion scale with user's scroll velocity.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/ScrollVelocity-JS-CSS"
+    },
+    {
+      "name": "ScrollVelocity-JS-TW",
+      "type": "registry:block",
+      "description": "Text marquee animatio - speed and distortion scale with user's scroll velocity.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/ScrollVelocity-JS-TW"
+    },
+    {
+      "name": "ScrollVelocity-TS-CSS",
+      "type": "registry:block",
+      "description": "Text marquee animatio - speed and distortion scale with user's scroll velocity.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/ScrollVelocity-TS-CSS"
+    },
+    {
+      "name": "ScrollVelocity-TS-TW",
+      "type": "registry:block",
+      "description": "Text marquee animatio - speed and distortion scale with user's scroll velocity.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/ScrollVelocity-TS-TW"
+    },
+    {
+      "name": "ShapeBlur-JS-CSS",
+      "type": "registry:block",
+      "description": "Morphing blurred geometric shape. The effect occurs on hover.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/ShapeBlur-JS-CSS"
+    },
+    {
+      "name": "ShapeBlur-JS-TW",
+      "type": "registry:block",
+      "description": "Morphing blurred geometric shape. The effect occurs on hover.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/ShapeBlur-JS-TW"
+    },
+    {
+      "name": "ShapeBlur-TS-CSS",
+      "type": "registry:block",
+      "description": "Morphing blurred geometric shape. The effect occurs on hover.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/ShapeBlur-TS-CSS"
+    },
+    {
+      "name": "ShapeBlur-TS-TW",
+      "type": "registry:block",
+      "description": "Morphing blurred geometric shape. The effect occurs on hover.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/ShapeBlur-TS-TW"
+    },
+    {
+      "name": "ShinyText-JS-CSS",
+      "type": "registry:block",
+      "description": "Metallic sheen sweeps across text producing a reflective highlight.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/ShinyText-JS-CSS"
+    },
+    {
+      "name": "ShinyText-JS-TW",
+      "type": "registry:block",
+      "description": "Metallic sheen sweeps across text producing a reflective highlight.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/ShinyText-JS-TW"
+    },
+    {
+      "name": "ShinyText-TS-CSS",
+      "type": "registry:block",
+      "description": "Metallic sheen sweeps across text producing a reflective highlight.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/ShinyText-TS-CSS"
+    },
+    {
+      "name": "ShinyText-TS-TW",
+      "type": "registry:block",
+      "description": "Metallic sheen sweeps across text producing a reflective highlight.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/ShinyText-TS-TW"
+    },
+    {
+      "name": "Shuffle-JS-CSS",
+      "type": "registry:block",
+      "description": "Animated text reveal where characters shuffle before settling.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Shuffle-JS-CSS"
+    },
+    {
+      "name": "Shuffle-JS-TW",
+      "type": "registry:block",
+      "description": "Animated text reveal where characters shuffle before settling.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Shuffle-JS-TW"
+    },
+    {
+      "name": "Shuffle-TS-CSS",
+      "type": "registry:block",
+      "description": "Animated text reveal where characters shuffle before settling.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Shuffle-TS-CSS"
+    },
+    {
+      "name": "Shuffle-TS-TW",
+      "type": "registry:block",
+      "description": "Animated text reveal where characters shuffle before settling.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Shuffle-TS-TW"
+    },
+    {
+      "name": "Silk-JS-CSS",
+      "type": "registry:block",
+      "description": "Smooth waves background with soft lighting.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Silk-JS-CSS"
+    },
+    {
+      "name": "Silk-JS-TW",
+      "type": "registry:block",
+      "description": "Smooth waves background with soft lighting.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Silk-JS-TW"
+    },
+    {
+      "name": "Silk-TS-CSS",
+      "type": "registry:block",
+      "description": "Smooth waves background with soft lighting.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Silk-TS-CSS"
+    },
+    {
+      "name": "Silk-TS-TW",
+      "type": "registry:block",
+      "description": "Smooth waves background with soft lighting.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Silk-TS-TW"
+    },
+    {
+      "name": "SplashCursor-JS-CSS",
+      "type": "registry:block",
+      "description": "Liquid splash burst at cursor with curling ripples and waves.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/SplashCursor-JS-CSS"
+    },
+    {
+      "name": "SplashCursor-JS-TW",
+      "type": "registry:block",
+      "description": "Liquid splash burst at cursor with curling ripples and waves.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/SplashCursor-JS-TW"
+    },
+    {
+      "name": "SplashCursor-TS-CSS",
+      "type": "registry:block",
+      "description": "Liquid splash burst at cursor with curling ripples and waves.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/SplashCursor-TS-CSS"
+    },
+    {
+      "name": "SplashCursor-TS-TW",
+      "type": "registry:block",
+      "description": "Liquid splash burst at cursor with curling ripples and waves.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/SplashCursor-TS-TW"
+    },
+    {
+      "name": "SplitText-JS-CSS",
+      "type": "registry:block",
+      "description": "Splits text into characters / words for staggered entrance animation.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/SplitText-JS-CSS"
+    },
+    {
+      "name": "SplitText-JS-TW",
+      "type": "registry:block",
+      "description": "Splits text into characters / words for staggered entrance animation.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/SplitText-JS-TW"
+    },
+    {
+      "name": "SplitText-TS-CSS",
+      "type": "registry:block",
+      "description": "Splits text into characters / words for staggered entrance animation.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/SplitText-TS-CSS"
+    },
+    {
+      "name": "SplitText-TS-TW",
+      "type": "registry:block",
+      "description": "Splits text into characters / words for staggered entrance animation.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/SplitText-TS-TW"
+    },
+    {
+      "name": "SpotlightCard-JS-CSS",
+      "type": "registry:block",
+      "description": "Dynamic spotlight follows cursor casting gradient illumination.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/SpotlightCard-JS-CSS"
+    },
+    {
+      "name": "SpotlightCard-JS-TW",
+      "type": "registry:block",
+      "description": "Dynamic spotlight follows cursor casting gradient illumination.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/SpotlightCard-JS-TW"
+    },
+    {
+      "name": "SpotlightCard-TS-CSS",
+      "type": "registry:block",
+      "description": "Dynamic spotlight follows cursor casting gradient illumination.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/SpotlightCard-TS-CSS"
+    },
+    {
+      "name": "SpotlightCard-TS-TW",
+      "type": "registry:block",
+      "description": "Dynamic spotlight follows cursor casting gradient illumination.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/SpotlightCard-TS-TW"
+    },
+    {
+      "name": "Squares-JS-CSS",
+      "type": "registry:block",
+      "description": "Animated squares with scaling + direction customization.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Squares-JS-CSS"
+    },
+    {
+      "name": "Squares-JS-TW",
+      "type": "registry:block",
+      "description": "Animated squares with scaling + direction customization.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Squares-JS-TW"
+    },
+    {
+      "name": "Squares-TS-CSS",
+      "type": "registry:block",
+      "description": "Animated squares with scaling + direction customization.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Squares-TS-CSS"
+    },
+    {
+      "name": "Squares-TS-TW",
+      "type": "registry:block",
+      "description": "Animated squares with scaling + direction customization.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Squares-TS-TW"
+    },
+    {
+      "name": "Stack-JS-CSS",
+      "type": "registry:block",
+      "description": "Layered stack with swipe animations and smooth transitions.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Stack-JS-CSS"
+    },
+    {
+      "name": "Stack-JS-TW",
+      "type": "registry:block",
+      "description": "Layered stack with swipe animations and smooth transitions.",
+      "registry": "@reactbits",
+      "addCommandArgument": "@reactbits/Stack-JS-TW"
+    }
+  ]
+}
